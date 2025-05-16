@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Hàm băm MD5 được ai đề xuất và vào năm nào?",
+    "answers": [
+      {"a": "Chaum, van Heijst, Pfitzmann vào năm 1990"},
+      {"b": "Rivest vào năm 1991"},
+      {"c": "NIST vào năm 1993"},
+      {"d": "Marc Stevens vào năm 2005"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "MD5 là viết tắt của cụm từ nào?",
+    "answers": [
+      {"a": "Modern Data 5"},
+      {"b": "Message Digest 5"},
+      {"c": "Maximum Density 5"},
+      {"d": "Multiple Domain 5"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Kích thước của giá trị băm (Message Digest) do MD5 tạo ra là bao nhiêu bit?",
+    "answers": [
+      {"a": "64 bit"},
+      {"b": "128 bit"},
+      {"c": "160 bit"},
+      {"d": "256 bit"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong Bước 1 (Nhồi dữ liệu) của thuật toán MD5, dữ liệu được nhồi thêm sao cho độ dài cuối cùng (tính bằng bit) thỏa mãn điều kiện nào?",
+    "answers": [
+      {"a": "l ≡ 0 (mod 512)"},
+      {"b": "l ≡ 64 (mod 512)"},
+      {"c": "l ≡ 448 (mod 512)"},
+      {"d": "l ≡ 512 (mod 448)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Quá trình nhồi dữ liệu trong MD5 luôn được thực hiện, ngay cả khi dữ liệu ban đầu đã có độ dài mong muốn (ví dụ 448 bit). Điều này đúng hay sai?",
+    "answers": [
+      {"a": "Đúng"},
+      {"b": "Sai"},
+      {"c": "Chỉ đúng với dữ liệu có độ dài lớn hơn 512 bit"},
+      {"d": "Chỉ đúng với dữ liệu có độ dài nhỏ hơn 64 bit"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các bit được nhồi thêm trong Bước 1 của MD5 bao gồm những gì?",
+    "answers": [
+      {"a": "Chỉ các bit '0'"},
+      {"b": "Chỉ các bit '1'"},
+      {"c": "Một bit '1' theo sau bởi các bit '0'"},
+      {"d": "Một bit '0' theo sau bởi các bit '1'"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong Bước 2 (Thêm vào độ dài) của MD5, độ dài của khối dữ liệu ban đầu được biểu diễn bằng bao nhiêu bit và thêm vào đâu?",
+    "answers": [
+      {"a": "32-bit, thêm vào đầu chuỗi nhị phân"},
+      {"b": "64-bit, thêm vào cuối chuỗi nhị phân"},
+      {"c": "128-bit, thêm vào giữa chuỗi nhị phân"},
+      {"d": "Không thêm độ dài, độ dài được ngầm hiểu"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Nếu độ dài của khối dữ liệu ban đầu trong MD5 lớn hơn 2^64, giá trị độ dài nào sẽ được sử dụng để thêm vào?",
+    "answers": [
+      {"a": "Toàn bộ giá trị độ dài"},
+      {"b": "64 bit cao nhất của độ dài"},
+      {"c": "64 bit thấp nhất của độ dài (K mod 2^64)"},
+      {"d": "Thuật toán sẽ báo lỗi"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Sau Bước 1 và Bước 2, khối dữ liệu thu được trong MD5 có độ dài là bội số của bao nhiêu bit?",
+    "answers": [
+      {"a": "128 bit"},
+      {"b": "256 bit"},
+      {"c": "512 bit"},
+      {"d": "1024 bit"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Bộ đệm MD (MD buffer) trong Bước 3 của MD5 có kích thước bao nhiêu bit và được biểu diễn bằng bao nhiêu thanh ghi 32-bit?",
+    "answers": [
+      {"a": "64-bit, 2 thanh ghi"},
+      {"b": "128-bit, 4 thanh ghi"},
+      {"c": "160-bit, 5 thanh ghi"},
+      {"d": "256-bit, 8 thanh ghi"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các giá trị khởi tạo cho 4 thanh ghi A, B, C, D trong bộ đệm MD của MD5 được định nghĩa ở dạng little-endian. 'Little-endian' có nghĩa là gì?",
+    "answers": [
+      {"a": "Bit có trọng số cao nhất nằm ở địa chỉ thấp nhất"},
+      {"b": "Byte có trọng số cao nhất nằm ở địa chỉ thấp nhất"},
+      {"c": "Bit có trọng số nhỏ nhất nằm ở địa chỉ thấp nhất"},
+      {"d": "Byte có trọng số nhỏ nhất nằm ở địa chỉ thấp nhất"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Hàm nén (Compression function) trong MD5 gồm bao nhiêu 'vòng' xử lý?",
+    "answers": [
+      {"a": "1 vòng"},
+      {"b": "2 vòng"},
+      {"c": "3 vòng"},
+      {"d": "4 vòng"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Các hàm logic F, G, H, I được sử dụng trong các vòng của MD5. Hàm H(X,Y,Z) được định nghĩa như thế nào?",
+    "answers": [
+      {"a": "(X AND Y) OR (NOT X AND Z)"},
+      {"b": "(X AND Z) OR (Y AND NOT Z)"},
+      {"c": "X XOR Y XOR Z"},
+      {"d": "Y XOR (X OR NOT Z)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Mảng 64 phần tử T[i] được sử dụng trong hàm nén MD5 được tính theo công thức nào, với i tính theo radian?",
+    "answers": [
+      {"a": "2^32 * abs(cos(i))"},
+      {"b": "2^32 * abs(sin(i))"},
+      {"c": "2^32 * abs(tan(i))"},
+      {"d": "2^32 * log(i)"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Kết quả của 4 vòng xử lý trong hàm nén MD5 được cộng với đầu vào CVq (giá trị bộ đệm từ khối trước) theo phép toán nào để tạo ra CVq+1?",
+    "answers": [
+      {"a": "Phép cộng thông thường"},
+      {"b": "Phép cộng modulo 2^32"},
+      {"c": "Phép XOR"},
+      {"d": "Phép nhân ma trận"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Sau khi xử lý hết tất cả L khối 512-bit, giá trị nào sẽ là kết quả băm cuối cùng của MD5?",
+    "answers": [
+      {"a": "Giá trị CV0 ban đầu"},
+      {"b": "Tổng của tất cả các CVq"},
+      {"c": "Giá trị CV của lần xử lý thứ L (CV_L)"},
+      {"d": "Giá trị của mảng T"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Theo Hình 3.4, mỗi vòng trong 4 vòng xử lý chính của MD5 thực hiện bao nhiêu bước nhỏ (iterations)?",
+    "answers": [
+      {"a": "8 bước"},
+      {"b": "16 bước"},
+      {"c": "32 bước"},
+      {"d": "64 bước"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hàm băm MD5 có khả năng xử lý thông điệp đầu vào với độ dài như thế nào?",
+    "answers": [
+      {"a": "Chỉ độ dài cố định 512 bit"},
+      {"b": "Chỉ độ dài là bội số của 128 bit"},
+      {"c": "Độ dài bất kỳ"},
+      {"d": "Độ dài tối đa 2^64 bit"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Mục đích chính của các giá trị hằng số T[1] đến T[64] trong Hình 3.4 của MD5 là gì?",
+    "answers": [
+      {"a": "Làm khóa bí mật cho thuật toán"},
+      {"b": "Đảm bảo tính ngẫu nhiên và loại bỏ tính đối xứng trong quá trình tính toán"},
+      {"c": "Lưu trữ độ dài thông điệp"},
+      {"d": "Xác định số vòng lặp"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Đầu ra của hàm băm MD5 là bao nhiêu bit?",
+    "answers": [
+      {"a": "64"},
+      {"b": "128"},
+      {"c": "256"},
+      {"d": "512"}
+    ],
+    "correct": "b"
+  }
+]

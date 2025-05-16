@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Hàm băm SHA-1 được phát triển bởi tổ chức nào?",
+    "answers": [
+      {"a": "Rivest"},
+      {"b": "ISO (International Organization for Standardization)"},
+      {"c": "NIST (National Institute of Standard and Technology)"},
+      {"d": "IETF (Internet Engineering Task Force)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "SHA là viết tắt của cụm từ nào?",
+    "answers": [
+      {"a": "Secure Hashing Application"},
+      {"b": "Standard Hash Algorithm"},
+      {"c": "Secure Hash Algorithm"},
+      {"d": "System Hashing Architecture"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Chiều dài của giá trị băm (digest) do SHA-1 tạo ra là bao nhiêu bit?",
+    "answers": [
+      {"a": "128 bits"},
+      {"b": "160 bits"},
+      {"c": "224 bits"},
+      {"d": "256 bits"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các bước Nhồi dữ liệu (Bước 1) và Thêm vào độ dài (Bước 2) trong SHA-1 tương tự như trong MD5. Điều này đúng hay sai?",
+    "answers": [
+      {"a": "Đúng, về cơ bản là giống hệt nhau"},
+      {"b": "Sai, có những khác biệt cơ bản về cách nhồi bit và biểu diễn độ dài"},
+      {"c": "Chỉ Bước 1 giống, Bước 2 khác"},
+      {"d": "Chỉ Bước 2 giống, Bước 1 khác"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Bộ đệm MD (MD buffer) trong SHA-1 có kích thước bao nhiêu bit và được biểu diễn bằng bao nhiêu thanh ghi 32-bit?",
+    "answers": [
+      {"a": "128-bit, 4 thanh ghi"},
+      {"b": "160-bit, 5 thanh ghi"},
+      {"c": "256-bit, 8 thanh ghi"},
+      {"d": "512-bit, 16 thanh ghi"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Năm thanh ghi 32-bit trong bộ đệm MD của SHA-1 được ký hiệu là gì?",
+    "answers": [
+      {"a": "A, B, C, D"},
+      {"b": "H0, H1, H2, H3, H4"},
+      {"c": "W0, W1, W2, W3, W4"},
+      {"d": "A, B, C, D, E"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Hàm nén (Compression function) trong SHA-1 gồm bao nhiêu vòng xử lý (steps/iterations) chính?",
+    "answers": [
+      {"a": "64 bước, chia thành 4 vòng, mỗi vòng 16 bước"},
+      {"b": "80 bước, chia thành 4 vòng, mỗi vòng 20 bước"},
+      {"c": "160 bước, không chia vòng"},
+      {"d": "512 bước, chia thành 16 vòng"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các hàm logic được sử dụng trong các vòng của SHA-1 (f1, f2, f3, f4) khác nhau. Hàm f2 (cho t từ 20 đến 39) được định nghĩa là gì?",
+    "answers": [
+      {"a": "(B AND C) OR (NOT B AND D)"},
+      {"b": "B XOR C XOR D"},
+      {"c": "(B AND C) OR (B AND D) OR (C AND D)"},
+      {"d": "NOT (B OR C) AND D"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong SHA-1, mỗi bước (từ 0 đến 79) sử dụng một hằng số Kt. Có bao nhiêu giá trị hằng số Kt khác nhau được sử dụng trong 80 bước đó?",
+    "answers": [
+      {"a": "1 hằng số duy nhất"},
+      {"b": "4 hằng số khác nhau (cho 4 vòng)"},
+      {"c": "20 hằng số khác nhau"},
+      {"d": "80 hằng số khác nhau"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giá trị hằng số K_t được sử dụng cho các bước từ 40 đến 59 trong SHA-1 là gì?",
+    "answers": [
+      {"a": "5A827999 (hex)"},
+      {"b": "6ED9EBA1 (hex)"},
+      {"c": "8F1BBCDC (hex)"},
+      {"d": "CA62C1D6 (hex)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Đầu vào cho mỗi vòng (trong 80 bước) của hàm nén SHA-1 bao gồm khối 512-bit hiện thời và giá trị nào?",
+    "answers": [
+      {"a": "Chỉ khối 512-bit"},
+      {"b": "Khối 512-bit và bộ đệm 128-bit từ MD5"},
+      {"c": "Khối 512-bit và bộ đệm 160-bit ABCDE (giá trị CVq)"},
+      {"d": "Chỉ các hằng số Kt"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Sau khi xử lý hết 80 bước cho một khối 512-bit, giá trị của 5 thanh ghi (A, B, C, D, E) được cập nhật như thế nào để tạo ra CVq+1?",
+    "answers": [
+      {"a": "Chúng được nối lại với nhau"},
+      {"b": "Chúng được cộng (modulo 2^32) với giá trị CVq ban đầu (H0, H1, H2, H3, H4 của khối đó)"},
+      {"c": "Chúng được XOR với giá trị CVq ban đầu"},
+      {"d": "Giá trị A,B,C,D,E mới chính là CVq+1"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Sau khi xử lý hết L khối 512-bit, kết quả băm cuối cùng của SHA-1 là gì?",
+    "answers": [
+      {"a": "Giá trị của 5 thanh ghi A,B,C,D,E sau lần xử lý khối thứ L"},
+      {"b": "Nối các giá trị H0, H1, H2, H3, H4 từ lần xử lý khối thứ L"},
+      {"c": "Giá trị CVq ban đầu"},
+      {"d": "Tổng của tất cả các giá trị bộ đệm trung gian"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Họ SHA-2 bao gồm các hàm băm với độ dài digest nào sau đây?",
+    "answers": [
+      {"a": "Chỉ 160 bits"},
+      {"b": "Chỉ 256 và 512 bits"},
+      {"c": "224, 256, 384, hoặc 512 bits"},
+      {"d": "Luôn là 512 bits nhưng có thể rút gọn"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "SHA-256 được tính toán với các từ (word) có kích thước bao nhiêu bit và thực hiện bao nhiêu vòng lặp?",
+    "answers": [
+      {"a": "16 bits, 80 vòng lặp"},
+      {"b": "32 bits, 64 vòng lặp"},
+      {"c": "64 bits, 80 vòng lặp"},
+      {"d": "32 bits, 80 vòng lặp"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "SHA-512 được tính toán với các từ (word) có kích thước bao nhiêu bit và thực hiện bao nhiêu vòng lặp?",
+    "answers": [
+      {"a": "32 bits, 64 vòng lặp"},
+      {"b": "32 bits, 80 vòng lặp"},
+      {"c": "64 bits, 64 vòng lặp"},
+      {"d": "64 bits, 80 vòng lặp"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "SHA-224 là phiên bản rút gọn của hàm băm nào và có digest dài bao nhiêu bit?",
+    "answers": [
+      {"a": "SHA-1, 224 bits"},
+      {"b": "SHA-256, 224 bits"},
+      {"c": "SHA-384, 224 bits"},
+      {"d": "SHA-512, 224 bits"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Theo Bảng 3.1 (Thời gian tấn công các hàm băm), SHA-1 có tốc độ xử lý (MB/s) như thế nào so với MD5?",
+    "answers": [
+      {"a": "Nhanh hơn MD5"},
+      {"b": "Bằng MD5 (153 MB/s)"},
+      {"c": "Chậm hơn MD5"},
+      {"d": "Bảng không so sánh trực tiếp"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Phương pháp tấn công \"SHA-1 shattered\" được Google công bố có ưu điểm gì so với tấn công brute-force truyền thống vào SHA-1?",
+    "answers": [
+      {"a": "Không có ưu điểm nào, chỉ là một tên gọi khác"},
+      {"b": "Chậm hơn nhưng ít tốn kém hơn"},
+      {"c": "Nhanh hơn đáng kể (khoảng 100.000 lần) trong việc tìm ra đụng độ (collision)"},
+      {"d": "Chỉ áp dụng được trên phần cứng đặc biệt"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Đầu ra của hàm băm SHA-1 là bao nhiêu bit?",
+    "answers": [
+      {"a": "128"},
+      {"b": "160"},
+      {"c": "224"},
+      {"d": "256"}
+    ],
+    "correct": "b"
+  }
+]
