@@ -141,7 +141,7 @@
         "d": "Tất cả đều đúng."
       }
     ],
-    "correct": "c"
+    "correct": "d"
   },
   {
     "question": "Các thuật toán nào sau đây là thuật tóan mã hóa đối xứng?",
@@ -159,7 +159,7 @@
         "d": "IDEA, Blowfish, AES, ECC."
       }
     ],
-    "correct": "b"
+    "correct": "a"
   },
   {
     "question": "Cơ chế bảo mật SSL hoạt động trên tầng nào?",
@@ -201,16 +201,16 @@
     "question": "Giao thức bảo mật cho mạng không dây là",
     "answers": [
       {
-        "a": "Giao thức SSL"
+        "a": "Giao thức SSL (Secure Sockets Layer)"
       },
       {
-        "b": "Giao thức TSL"
+        "b": "Giao thức TSL (Transport Layer Security)"
       },
       {
-        "c": "Giao thức PGP"
+        "c": "Giao thức PGP (Pretty Good Privacy)"
       },
       {
-        "d": "Giao thức WEP"
+        "d": "Giao thức WEP (Wired Equivalent Privacy)"
       }
     ],
     "correct": "d"
@@ -231,7 +231,7 @@
         "d": "7"
       }
     ],
-    "correct": "b"
+    "correct": "d"
   },
   {
     "question": "Giao thức SSL và TSL hoạt động ở tầng nào của mô hình OSI",

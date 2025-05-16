@@ -69,7 +69,7 @@
         "d": "Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user."
       }
     ],
-    "correct": "d"
+    "correct": "a"
   },
   {
     "question": "Thuật toán thực hiện trong cơ chế bảo mật IP (IPSec) ở Window là",
@@ -213,7 +213,7 @@
         "d": "Tất cả đều đúng."
       }
     ],
-    "correct": "c"
+    "correct": "a"
   },
   {
     "question": "Mục tiêu là phân tích mật mã là gì?",

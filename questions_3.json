@@ -213,7 +213,7 @@
         "d": "ICS (Internet Connection Sharring)"
       }
     ],
-    "correct": "d"
+    "correct": "a"
   },
   {
     "question": "Một gói tin có hỗ trợ IPSec được mã hóa cả Header và Content theo phương thức nào?",
@@ -339,7 +339,7 @@
         "d": "Máy 192.168.3.8 đang yêu cầu kết nối với Web server tại 203. 162.4.132"
       }
     ],
-    "correct": "c"
+    "correct": "d"
   },
   {
     "question": "Một trường đại học có nhu cầu triển khai hệ thống Firewall bằng ISA Server 2004/2006. Hiện có một hệ thống mạng Active Directory với một DC và một File Server cùng với 50 máy Client. Ngoài ra, còn có 2 Web Server và 1 Mail Server (dùng Public IP) phục vụ người dùng internet. Là người quản trị mạng, bạn chọn giải pháp nào?",
@@ -429,7 +429,7 @@
         "d": "203.162.4.115-Any-203.162.4.115-80-Any"
       }
     ],
-    "correct": "b"
+    "correct": "c"
   },
   {
     "question": "Phương pháp chứng thực được sử dụng phổ biến hiện nay:",
