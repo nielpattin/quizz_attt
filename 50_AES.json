@@ -1,0 +1,492 @@
+[
+  {
+    "question": "Mã Advanced Encryption Standard (AES) được tổ chức nào công bố vào tháng 12/2001?",
+    "answers": [
+      {"a": "ISO (International Organization for Standardization)"},
+      {"b": "IEEE (Institute of Electrical and Electronics Engineers)"},
+      {"c": "NIST (National Institute of Standards and Technology)"},
+      {"d": "IETF (Internet Engineering Task Force)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "AES thực hiện mã hóa và giải mã trên các khối dữ liệu có kích thước bao nhiêu bits?",
+    "answers": [
+      {"a": "64 bits"},
+      {"b": "128 bits"},
+      {"c": "192 bits"},
+      {"d": "256 bits"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Số vòng (Nr) trong AES phụ thuộc vào yếu tố nào?",
+    "answers": [
+      {"a": "Kích thước khối dữ liệu"},
+      {"b": "Kích thước khóa (Cipher key)"},
+      {"c": "Loại chế độ hoạt động (mode of operation)"},
+      {"d": "Giá trị của Vector khởi tạo (IV)"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong AES, nếu kích thước khóa là 256 bits, số vòng (Nr) sẽ là bao nhiêu?",
+    "answers": [
+      {"a": "10"},
+      {"b": "12"},
+      {"c": "14"},
+      {"d": "16"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Kích thước của các khóa tại mỗi vòng (Round keys) trong AES luôn là bao nhiêu bits, bất kể kích thước khóa ban đầu?",
+    "answers": [
+      {"a": "64 bits"},
+      {"b": "128 bits"},
+      {"c": "192 bits"},
+      {"d": "Bằng kích thước khóa ban đầu"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "AES sử dụng bao nhiêu khối dữ liệu cơ bản để biểu diễn dữ liệu?",
+    "answers": [
+      {"a": "1 (chỉ State)"},
+      {"b": "2 (Byte và Word)"},
+      {"c": "3 (Byte, Word và State)"},
+      {"d": "4 (Bit, Byte, Word và State)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong AES, một 'Word' bao gồm bao nhiêu byte?",
+    "answers": [
+      {"a": "1 byte (8 bits)"},
+      {"b": "2 bytes (16 bits)"},
+      {"c": "4 bytes (32 bits)"},
+      {"d": "PDF không đề cập rõ, chỉ nói Word (4 bit) là sai, Word trong AES là 32 bit = 4 byte"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Khối dữ liệu 'State' trong AES được biểu diễn dưới dạng một ma trận byte có kích thước như thế nào?",
+    "answers": [
+      {"a": "2x8 bytes"},
+      {"b": "4x4 bytes"},
+      {"c": "8x2 bytes"},
+      {"d": "Phụ thuộc vào kích thước khóa"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Quá trình chuyển đổi từ một khối (Block) 128-bit sang 'State' trong AES được thực hiện như thế nào?",
+    "answers": [
+      {"a": "Sao chép tuần tự các byte vào State theo hàng"},
+      {"b": "Sao chép tuần tự các byte vào State theo cột (Si mod 4, i/4 = block)"},
+      {"c": "Sử dụng một bảng tra cố định"},
+      {"d": "Thực hiện phép XOR với khóa vòng"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hàm nào sau đây KHÔNG phải là một trong bốn hàm chính được thực hiện trong một vòng lặp chuẩn của AES (trừ vòng cuối)?",
+    "answers": [
+      {"a": "SubBytes()"},
+      {"b": "ShiftRows()"},
+      {"c": "MixColumns()"},
+      {"d": "KeyExpansion()"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Chức năng chính của hàm SubBytes() trong AES là gì?",
+    "answers": [
+      {"a": "Hoán vị các byte trong mỗi hàng của State"},
+      {"b": "Thay thế mỗi byte của State bằng một byte khác sử dụng S-box"},
+      {"c": "Kết hợp tuyến tính các byte trong mỗi cột của State"},
+      {"d": "XOR State với một khóa vòng"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hàm ShiftRows() trong AES thực hiện thao tác gì?",
+    "answers": [
+      {"a": "Dịch vòng các byte trong cột của State"},
+      {"b": "Dịch vòng các byte trong hàng của State với số lượng dịch chuyển khác nhau cho mỗi hàng"},
+      {"c": "Thay thế các hàng của State"},
+      {"d": "XOR các hàng của State với nhau"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong hàm ShiftRows() của AES, hàng thứ mấy (đánh số từ 0) KHÔNG bị dịch chuyển?",
+    "answers": [
+      {"a": "Hàng 0"},
+      {"b": "Hàng 1"},
+      {"c": "Hàng 2"},
+      {"d": "Hàng 3"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Hàm MixColumns() trong AES hoạt động trên đối tượng nào của State?",
+    "answers": [
+      {"a": "Từng byte riêng lẻ"},
+      {"b": "Từng hàng"},
+      {"c": "Từng cột"},
+      {"d": "Toàn bộ State cùng một lúc"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hàm AddRoundKey() trong AES thực hiện phép toán gì giữa State và khóa vòng tương ứng?",
+    "answers": [
+      {"a": "Phép cộng modulo 2^128"},
+      {"b": "Phép nhân ma trận"},
+      {"c": "Phép XOR bit-wise"},
+      {"d": "Phép thay thế S-box"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong quá trình giải mã AES, hàm nào là nghịch đảo của SubBytes()?",
+    "answers": [
+      {"a": "InvSubBytes()"},
+      {"b": "InvShiftRows()"},
+      {"c": "InvMixColumns()"},
+      {"d": "SubBytes() (vì nó tự nghịch đảo)"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Mục đích của việc thiết kế ba hàm SubBytes(), ShiftRows(), và MixColumns() trong AES là gì?",
+    "answers": [
+      {"a": "Chỉ để tăng tốc độ mã hóa"},
+      {"b": "Để ngăn chặn phân tích mã bằng phương thức 'mập mờ' (confusion) và 'khuếch tán' (diffusion)"},
+      {"c": "Để giảm kích thước của khóa vòng"},
+      {"d": "Để đơn giản hóa quá trình mở rộng khóa"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Khái niệm 'diffusion' (khuếch tán) trong mật mã học, mà AES cố gắng đạt được, có nghĩa là gì?",
+    "answers": [
+      {"a": "Mỗi bit của bản rõ chỉ ảnh hưởng đến một vài bit của bản mã"},
+      {"b": "Các kiểu mẫu trong bản rõ được phân tán rộng rãi trong bản mã"},
+      {"c": "Mối quan hệ giữa khóa và bản mã rất phức tạp"},
+      {"d": "Việc thay đổi một bit khóa sẽ thay đổi hoàn toàn bản mã"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Khái niệm 'confusion' (mập mờ) trong mật mã học, mà AES cố gắng đạt được, có nghĩa là gì?",
+    "answers": [
+      {"a": "Làm cho mối quan hệ thống kê giữa bản rõ và bản mã trở nên đơn giản"},
+      {"b": "Làm cho mối quan hệ giữa khóa và bản mã trở nên phức tạp và khó theo dõi nhất có thể"},
+      {"c": "Đảm bảo rằng mỗi bit bản rõ ảnh hưởng đến nhiều bit bản mã"},
+      {"d": "Phân tán ảnh hưởng của một bit bản rõ ra nhiều bit bản mã"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Vòng cuối cùng của quá trình mã hóa AES khác với các vòng trước đó ở điểm nào?",
+    "answers": [
+      {"a": "Bỏ qua hàm SubBytes()"},
+      {"b": "Bỏ qua hàm ShiftRows()"},
+      {"c": "Bỏ qua hàm MixColumns()"},
+      {"d": "Bỏ qua hàm AddRoundKey()"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Quá trình mở rộng khóa (Key Expansion) trong AES nhằm mục đích gì?",
+    "answers": [
+      {"a": "Tạo ra một khóa duy nhất cho mỗi khối dữ liệu"},
+      {"b": "Tạo ra một tập các khóa vòng (Round Keys) từ khóa mật mã ban đầu (Cipher Key)"},
+      {"c": "Giảm kích thước của khóa mật mã ban đầu"},
+      {"d": "Tăng kích thước của khối dữ liệu"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong quá trình mở rộng khóa AES-128, hằng số RCon[i/Nk] được sử dụng. Nk ở đây đại diện cho gì?",
+    "answers": [
+      {"a": "Số vòng lặp"},
+      {"b": "Kích thước khối dữ liệu theo word (thường là 4 cho 128-bit)"},
+      {"c": "Kích thước khóa theo word"},
+      {"d": "Số byte trong một word"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hằng số RCon được sử dụng trong quá trình mở rộng khóa AES dựa trên trường hữu hạn nào?",
+    "answers": [
+      {"a": "GF(2)"},
+      {"b": "GF(2^4)"},
+      {"c": "GF(2^8)"},
+      {"d": "GF(2^16)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Thao tác RotWord trong quá trình mở rộng khóa AES-128 thực hiện điều gì trên một word 4-byte [a0, a1, a2, a3]?",
+    "answers": [
+      {"a": "Đảo ngược thứ tự các byte thành [a3, a2, a1, a0]"},
+      {"b": "Dịch vòng các byte sang trái một vị trí thành [a1, a2, a3, a0]"},
+      {"c": "Dịch vòng các byte sang phải một vị trí thành [a3, a0, a1, a2]"},
+      {"d": "Thay thế mỗi byte bằng giá trị từ S-box"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thao tác SubWord trong quá trình mở rộng khóa AES-128 thực hiện điều gì trên một word?",
+    "answers": [
+      {"a": "XOR word đó với RCon"},
+      {"b": "Thực hiện phép thay thế S-box trên từng byte của word đó"},
+      {"c": "Dịch vòng các byte của word đó"},
+      {"d": "Trộn các cột của word đó (nếu xem word là ma trận)"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hệ mã hóa AES sử dụng bao nhiêu bit đầu vào để mã hóa?",
+    "answers": [
+      {"a": "32"},
+      {"b": "56"},
+      {"c": "64"},
+      {"d": "128"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Theo hình 2.17, bảng tra SubBytes và InvSubBytes là ma trận có bao nhiêu dòng và cột?",
+    "answers": [
+      {"a": "8 dòng và 8 cột"},
+      {"b": "16 dòng và 8 cột"},
+      {"c": "8 dòng và 16 cột"},
+      {"d": "16 dòng và 16 cột"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Phép biến đổi AddRoundKey() trong AES có tính chất thuận nghịch không? Và tại sao?",
+    "answers": [
+      {"a": "Không, vì nó làm mất thông tin"},
+      {"b": "Có, vì phép XOR là tự nghịch đảo (XOR hai lần với cùng một giá trị sẽ trở về giá trị ban đầu)"},
+      {"c": "Có, nhưng cần một hàm InvAddRoundKey() riêng biệt"},
+      {"d": "Phụ thuộc vào giá trị của khóa vòng"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Ví dụ 2.3.8 minh họa việc chuyển đổi chuỗi ký tự \"AES USES A MATRIX ZZ\" thành State. Tại sao lại phải bổ sung 2 ký tự 'Z'?",
+    "answers": [
+      {"a": "Để tăng độ phức tạp của bản rõ"},
+      {"b": "Vì 'Z' là ký tự đặc biệt trong AES"},
+      {"c": "Để đảm bảo bản rõ có đủ 16 byte (128 bits) cho một khối State"},
+      {"d": "Để phù hợp với yêu cầu của hàm MixColumns()"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong Hình 2.20 (Phép kết hợp Mixing), ma trận hằng số C được sử dụng cho hàm MixColumns(). Hàm InvMixColumns() sẽ sử dụng ma trận nào?",
+    "answers": [
+      {"a": "Ma trận C"},
+      {"b": "Ma trận C chuyển vị (C^T)"},
+      {"c": "Ma trận nghịch đảo của C (C^-1)"},
+      {"d": "Ma trận đơn vị"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Theo thông tin về độ an toàn của AES, phiên bản nào có số tổ hợp khóa lớn nhất và do đó được coi là mạnh nhất trên lý thuyết?",
+    "answers": [
+      {"a": "AES-128"},
+      {"b": "AES-192"},
+      {"c": "AES-256"},
+      {"d": "Cả ba phiên bản có độ an toàn tương đương"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Ứng dụng nào sau đây KHÔNG được đề cập trong PDF là sử dụng AES để mã hóa?",
+    "answers": [
+      {"a": "WinZip (mã hóa dữ liệu nén)"},
+      {"b": "IIS (mã hóa trong máy chủ web)"},
+      {"c": "WPA2 (mã hóa Wifi)"},
+      {"d": "PGP (mã hóa email – PGP thường dùng IDEA hoặc các thuật toán khác, mặc dù có thể dùng AES)"}
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Trong giao thức IPSec (Hình 2.25), AES có thể được sử dụng ở giai đoạn nào?",
+    "answers": [
+      {"a": "Chỉ để xác thực"},
+      {"b": "Chỉ để mã hóa dữ liệu (Encryption Algorithm)"},
+      {"c": "Cả xác thực và mã hóa"},
+      {"d": "Không được sử dụng trong IPSec"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giao thức WPA2 (Wi-Fi Protected Access 2) thường sử dụng AES với chế độ hoạt động nào để bảo mật mạng không dây?",
+    "answers": [
+      {"a": "ECB (Electronic Codebook)"},
+      {"b": "CBC (Cipher Block Chaining)"},
+      {"c": "CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)"},
+      {"d": "OFB (Output Feedback)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Theo Thông tư 01/2011/TT-BTTTT của Việt Nam, AES được khuyến nghị áp dụng và xếp vào nhóm tiêu chuẩn nào?",
+    "answers": [
+      {"a": "Tiêu chuẩn về chữ ký số"},
+      {"b": "Tiêu chuẩn về quản lý khóa"},
+      {"c": "Tiêu chuẩn về an toàn thông tin"},
+      {"d": "Tiêu chuẩn về giao thức mạng"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Kích thước của khóa đo bằng đơn vị?",
+    "answers": [
+      {"a": "Bit"},
+      {"b": "Byte"},
+      {"c": "KB"},
+      {"d": "MB"}
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Chuẩn mã hóa dữ liệu nào được chính phủ Mỹ sử dụng thay thế cho DES?",
+    "answers": [
+      {"a": "DSA"},
+      {"b": "AES"},
+      {"c": "ECC"},
+      {"d": "3DES"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "AES là một hệ mã hóa thuộc loại nào?",
+    "answers": [
+      {"a": "Mã hóa dòng (Stream cipher)"},
+      {"b": "Mã hóa khối đối xứng (Symmetric block cipher)"},
+      {"c": "Mã hóa khóa công khai (Asymmetric cipher)"},
+      {"d": "Hàm băm (Hash function)"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giá trị byte sau khi qua hàm SubBytes() được lấy từ đâu?",
+    "answers": [
+      {"a": "Bảng P-box cố định"},
+      {"b": "Bảng S-box cố định"},
+      {"c": "Kết quả phép toán với khóa vòng"},
+      {"d": "Một phép tính toán học trực tiếp trên byte đầu vào"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Mục đích chính của hàm ShiftRows() trong AES là gì đối với các byte trong State?",
+    "answers": [
+      {"a": "Thay thế giá trị các byte"},
+      {"b": "Trộn lẫn dữ liệu giữa các cột khác nhau bằng cách dịch chuyển các byte theo hàng"},
+      {"c": "Thêm khóa vòng vào State"},
+      {"d": "Giảm số lượng byte trong State"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hàm MixColumns() thực hiện phép toán trên từng cột của State dựa trên phép nhân trong trường hữu hạn nào?",
+    "answers": [
+      {"a": "GF(2^4)"},
+      {"b": "GF(2^8) với đa thức bất khả quy x^8 + x^4 + x^3 + x + 1"},
+      {"c": "GF(2^16)"},
+      {"d": "Số nguyên modulo 256"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong Hình 2.14 (Cấu trúc tổng quát của mã AES), 'Key expansion' có vai trò gì?",
+    "answers": [
+      {"a": "Mã hóa bản rõ ban đầu"},
+      {"b": "Giải mã bản mã cuối cùng"},
+      {"c": "Tạo ra các khóa vòng (Round keys) từ khóa mật mã chính (Cipher key)"},
+      {"d": "Kiểm tra tính toàn vẹn của khóa"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong quá trình mở rộng khóa của AES, nếu Wi-1 không phải là một word ở vị trí chia hết cho Nk (kích thước khóa theo word), thì Wi được tính như thế nào?",
+    "answers": [
+      {"a": "Wi = Wi-Nk XOR t (với t là word tạm)"},
+      {"b": "Wi = Wi-Nk XOR Wi-1"},
+      {"c": "Wi = SubWord(RotWord(Wi-1)) XOR RCon"},
+      {"d": "Wi = Wi-Nk XOR SubWord(Wi-1)"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thông tin nào sau đây là ĐÚNG về S-box được sử dụng trong AES?",
+    "answers": [
+      {"a": "Nó là một hoán vị tuyến tính"},
+      {"b": "Nó được tạo ra ngẫu nhiên cho mỗi lần mã hóa"},
+      {"c": "Nó là một hoán vị phi tuyến, cố định, được thiết kế cẩn thận để chống lại các tấn công phân tích"},
+      {"d": "Nó chỉ được sử dụng trong quá trình mở rộng khóa"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "AES được thiết kế để chống lại các loại tấn công nào?",
+    "answers": [
+      {"a": "Chỉ tấn công vét cạn khóa"},
+      {"b": "Tấn công phân tích tuyến tính và phân tích vi sai"},
+      {"c": "Chỉ tấn công dựa trên lỗi phần cứng"},
+      {"d": "Tấn công từ điển vào khóa"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Chế độ hoạt động (mode of operation) của AES, ví dụ CBC hay CTR, ảnh hưởng đến điều gì?",
+    "answers": [
+      {"a": "Cách thức các hàm SubBytes, ShiftRows, MixColumns hoạt động"},
+      {"b": "Cách thức khối dữ liệu đầu vào được xử lý và kết hợp với các khối trước đó hoặc vector khởi tạo"},
+      {"c": "Kích thước của khóa được sử dụng"},
+      {"d": "Số vòng lặp trong thuật toán AES"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Ưu điểm chính của việc AES có thể được triển khai hiệu quả cả bằng phần mềm và phần cứng là gì?",
+    "answers": [
+      {"a": "Chỉ tăng tốc độ trên phần cứng"},
+      {"b": "Giảm chi phí phát triển phần mềm"},
+      {"c": "Cho phép ứng dụng rộng rãi trên nhiều nền tảng và thiết bị khác nhau với hiệu năng tốt"},
+      {"d": "Làm cho thuật toán khó bị tấn công hơn"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Tại sao việc sử dụng khóa 128-bit trong AES vẫn được coi là an toàn cho hầu hết các ứng dụng hiện nay, mặc dù có các tùy chọn khóa dài hơn?",
+    "answers": [
+      {"a": "Vì không có máy tính nào đủ mạnh để phá khóa 128-bit"},
+      {"b": "Vì tấn công vét cạn khóa 128-bit đòi hỏi lượng tài nguyên và thời gian vượt quá khả năng tính toán hiện tại và trong tương lai gần"},
+      {"c": "Vì khóa dài hơn làm chậm đáng kể quá trình mã hóa mà không tăng thêm nhiều độ an toàn thực tế"},
+      {"d": "Vì khóa 128-bit dễ quản lý hơn"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "AES có thể được sử dụng để mã hóa loại dữ liệu nào?",
+    "answers": [
+      {"a": "Chỉ văn bản"},
+      {"b": "Chỉ hình ảnh"},
+      {"c": "Chỉ âm thanh"},
+      {"d": "Bất kỳ loại dữ liệu số nào (văn bản, hình ảnh, âm thanh, video, tệp thực thi, v.v.)"}
+    ],
+    "correct": "d"
+  }
+]
