@@ -48,7 +48,7 @@
         "d": "Sinh trắc học"
       }
     ],
-    "correct": "d"
+    "correct": "a"
   },
   {
     "question": "Giả sử muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Phương pháp nào để chúng ta không bị lộ mạng bên trong?",
@@ -138,7 +138,7 @@
         "d": "TCP/IP hijacking"
       }
     ],
-    "correct": "b"
+    "correct": "a"
   },
   {
     "question": "Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì?",
