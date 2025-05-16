@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Hệ mật mã RSA được đề xuất bởi ai và vào năm nào?",
+    "answers": [
+      {"a": "Clifford Cocks vào năm 1973"},
+      {"b": "R.Rivest, A.Shamir, và L.Adleman vào năm 1976"},
+      {"c": "Diffie và Hellman vào năm 1967"},
+      {"d": "NIST vào năm 1980"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thuật toán RSA sử dụng mấy loại khóa?",
+    "answers": [
+      {"a": "Một khóa duy nhất cho cả mã hóa và giải mã"},
+      {"b": "Hai khóa: Khóa công khai (Public key) và Khóa bí mật (Private key)"},
+      {"c": "Ba khóa: Khóa mã hóa, Khóa giải mã và Khóa phiên"},
+      {"d": "Không sử dụng khóa, dựa vào thuật toán"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong RSA, Khóa công khai (Public key) được dùng để làm gì?",
+    "answers": [
+      {"a": "Dùng để giải mã"},
+      {"b": "Dùng để mã hóa"},
+      {"c": "Dùng cho cả mã hóa và giải mã"},
+      {"d": "Dùng để tạo chữ ký số"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong RSA, Khóa bí mật (Private key) được dùng để làm gì?",
+    "answers": [
+      {"a": "Dùng để mã hóa"},
+      {"b": "Dùng để giải mã"},
+      {"c": "Được công bố rộng rãi"},
+      {"d": "Chỉ dùng để tạo khóa công khai"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thông tin được mã hóa bằng Khóa công khai trong RSA chỉ có thể được giải mã bằng gì?",
+    "answers": [
+      {"a": "Bất kỳ Khóa công khai nào khác"},
+      {"b": "Khóa bí mật tương ứng"},
+      {"c": "Cùng Khóa công khai đó"},
+      {"d": "Một thuật toán giải mã công khai"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "RSA sử dụng loại hàm nào cho quá trình mã hóa và giải mã?",
+    "answers": [
+      {"a": "Hàm tuyến tính"},
+      {"b": "Hàm băm"},
+      {"c": "Hàm mũ (lũy thừa modular)"},
+      {"d": "Hàm hoán vị"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Bước đầu tiên trong quá trình khởi tạo hệ mã RSA là gì?",
+    "answers": [
+      {"a": "Chọn khóa công khai b"},
+      {"b": "Tính toán φ(n)"},
+      {"c": "Chọn hai số nguyên tố lớn p và q, sau đó tính n = p × q"},
+      {"d": "Tính khóa bí mật a"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Giá trị φ(n) (phi-Euler của n) trong RSA được tính như thế nào, với n = p × q (p, q là số nguyên tố)?",
+    "answers": [
+      {"a": "p × q - 1"},
+      {"b": "(p - 1) × (q - 1)"},
+      {"c": "p + q"},
+      {"d": "n - 1"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Khóa công khai b trong RSA được chọn như thế nào?",
+    "answers": [
+      {"a": "Là một số bất kỳ nhỏ hơn n"},
+      {"b": "Là một số nguyên tố với n"},
+      {"c": "Là một số nguyên tố với φ(n)"},
+      {"d": "Là một ước số của φ(n)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Mối quan hệ giữa khóa bí mật a và khóa công khai b trong RSA là gì?",
+    "answers": [
+      {"a": "a × b = 1 (mod n)"},
+      {"b": "a × b = 0 (mod φ(n))"},
+      {"c": "a × b = 1 (mod φ(n))"},
+      {"d": "a = b (mod φ(n))"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong RSA, cặp giá trị nào tạo thành Khóa công khai (Kp)?",
+    "answers": [
+      {"a": "(n, a)"},
+      {"b": "(p, q)"},
+      {"c": "(n, b)"},
+      {"d": "(φ(n), b)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong RSA, giá trị nào là Khóa bí mật (ks)?",
+    "answers": [
+      {"a": "n"},
+      {"b": "b"},
+      {"c": "a"},
+      {"d": "φ(n)"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hàm mã hóa trong RSA để mã hóa bản rõ x thành bản mã y được định nghĩa như thế nào?",
+    "answers": [
+      {"a": "y = x^a mod n"},
+      {"b": "y = x^b mod n"},
+      {"c": "y = x × b mod n"},
+      {"d": "y = x + b mod n"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hàm giải mã trong RSA để giải mã bản mã y thành bản rõ x được định nghĩa như thế nào?",
+    "answers": [
+      {"a": "x = y^b mod n"},
+      {"b": "x = y × a mod n"},
+      {"c": "x = y^a mod n"},
+      {"d": "x = y - a mod n"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong Ví dụ 2.4.1, Bob chọn p=7, q=11. Giá trị n và φ(n) lần lượt là bao nhiêu?",
+    "answers": [
+      {"a": "n=18, φ(n)=17"},
+      {"b": "n=77, φ(n)=60"},
+      {"c": "n=77, φ(n)=76"},
+      {"d": "n=60, φ(n)=77"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong Ví dụ 2.4.1 (p=7, q=11, φ(n)=60), Bob chọn khóa công khai Kb = 13. Khóa bí mật ks (hay 'a') là bao nhiêu?",
+    "answers": [
+      {"a": "13"},
+      {"b": "7"},
+      {"c": "37"},
+      {"d": "60"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Để tính C = 15^3533 mod 11413 như trong Ví dụ 2.4.3, phương pháp nào thường được sử dụng để tăng tốc độ tính toán lũy thừa modular?",
+    "answers": [
+      {"a": "Tính 15^3533 trực tiếp rồi lấy mod"},
+      {"b": "Sử dụng khai triển Taylor"},
+      {"c": "Thuật toán bình phương và nhân (Exponentiation by squaring / Square-and-multiply)"},
+      {"d": "Phân tích 3533 thành thừa số nguyên tố"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Tính an toàn của hệ mật RSA chủ yếu dựa vào độ khó của bài toán nào?",
+    "answers": [
+      {"a": "Tính toán logarit rời rạc"},
+      {"b": "Phân tích số nguyên lớn n thành hai thừa số nguyên tố p và q"},
+      {"c": "Giải hệ phương trình tuyến tính"},
+      {"d": "Tìm căn bậc hai modulo n"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Để đảm bảo RSA an toàn, các số nguyên tố p và q nên được chọn như thế nào?",
+    "answers": [
+      {"a": "Là các số nguyên tố nhỏ để dễ tính toán"},
+      {"b": "Là các số nguyên tố rất lớn và không quá gần nhau"},
+      {"c": "p phải bằng q"},
+      {"d": "p và q có thể là hợp số"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Theo Bảng 2.1 (Thời gian tấn công hệ mã hóa RSA), nếu số các chữ số của N là 100, thời gian phân tích (tấn công) ước tính là bao lâu?",
+    "answers": [
+      {"a": "4 giờ"},
+      {"b": "104 giờ"},
+      {"c": "74 năm"},
+      {"d": "4000 năm"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Tại sao trong thực tế, RSA thường không được dùng để mã hóa trực tiếp toàn bộ văn bản dài mà thay vào đó được dùng để mã hóa khóa đối xứng?",
+    "answers": [
+      {"a": "Vì RSA không đủ an toàn cho văn bản dài"},
+      {"b": "Vì RSA có tốc độ thực hiện chậm hơn đáng kể so với các thuật toán mã hóa đối xứng"},
+      {"c": "Vì RSA chỉ mã hóa được số"},
+      {"d": "Vì khó tạo khóa RSA cho văn bản dài"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Tấn công 'Man-in-the-middle' vào RSA xảy ra khi nào?",
+    "answers": [
+      {"a": "Kẻ tấn công đoán được khóa bí mật"},
+      {"b": "Kẻ tấn công phân tích được n thành p và q"},
+      {"c": "Kẻ tấn công chặn và thay thế khóa công khai được trao đổi giữa hai bên"},
+      {"d": "Kẻ tấn công sử dụng lỗi trong quá trình sinh số ngẫu nhiên"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nếu kẻ địch biết được module N và giá trị φ(N), họ có thể làm gì?",
+    "answers": [
+      {"a": "Không làm được gì nhiều vì vẫn thiếu khóa bí mật"},
+      {"b": "Có thể dễ dàng tính ra p và q bằng cách giải hệ phương trình p×q=N và (p-1)(q-1)=φ(N)"},
+      {"c": "Chỉ có thể mã hóa thông điệp"},
+      {"d": "Phải tấn công vét cạn khóa công khai"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Việc chọn khóa công khai e (hay b) với giá trị nhỏ (ví dụ 3, 17, 65537) có ưu điểm gì trong RSA?",
+    "answers": [
+      {"a": "Làm cho hệ thống an toàn hơn"},
+      {"b": "Tăng tốc độ quá trình mã hóa vì phép lũy thừa sẽ nhanh hơn"},
+      {"c": "Tăng tốc độ quá trình giải mã"},
+      {"d": "Khó bị tấn công 'Man-in-the-middle' hơn"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Để phòng chống phương pháp phân tích Fermat, các số nguyên tố p và q trong RSA nên được chọn như thế nào?",
+    "answers": [
+      {"a": "p và q rất gần nhau"},
+      {"b": "p và q không quá gần nhau"},
+      {"c": "p là một số rất nhỏ"},
+      {"d": "Một trong hai số p hoặc q là 2"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Ứng dụng phổ biến nào của RSA được đề cập trong PDF liên quan đến bảo mật Web và Email?",
+    "answers": [
+      {"a": "AES và DES"},
+      {"b": "SSL (cho Web) và hỗ trợ trong Email"},
+      {"c": "MD5 và SHA-1"},
+      {"d": "Kerberos"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong Hình 2.27 (Sơ đồ hệ mã hóa RSA), 'Insecure channel' (kênh không an toàn) được sử dụng để truyền gì?",
+    "answers": [
+      {"a": "Bản rõ P"},
+      {"b": "Khóa bí mật của Bob"},
+      {"c": "Bản mã C"},
+      {"d": "Các số nguyên tố p và q"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Theo Clifford Cocks, một nhà toán học người Anh, đã mô tả một thuật toán tương tự RSA vào năm nào?",
+    "answers": [
+      {"a": "1967"},
+      {"b": "1973"},
+      {"c": "1976"},
+      {"d": "1980"}
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Độ an toàn của hệ mã hóa RSA dựa trên bài toán nào?",
+    "answers": [
+      {"a": "Logarit rời rạc"},
+      {"b": "Xếp ba lô"},
+      {"c": "Phân tích thành tích các số nguyên tố"},
+      {"d": "Định lý số dư trung hoa"}
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong các cặp khoá sau đây của hệ mật RSA với p=5 ; q=7, cặp khóa nào là đúng (e là khóa công khai, d là khóa bí mật)? (Gợi ý: φ(n) = (5-1)(7-1) = 4*6 = 24)",
+    "answers": [
+      {"a": "(e = 5, d = 5) vì 5*5 = 25 ≡ 1 (mod 24)"},
+      {"b": "(e = 7, d = 7) vì 7*7 = 49 ≡ 1 (mod 24)"},
+      {"c": "(e = 11, d = 11) vì 11*11 = 121 ≡ 1 (mod 24)"},
+      {"d": "Tất cả các cặp trên đều đúng"}
+    ],
+    "correct": "d"
+  }
+]
