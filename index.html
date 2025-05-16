@@ -110,8 +110,8 @@
             width: 100%;
         }
 
-        /* --- Next Card Button Styles --- */
-        #nextCardButton {
+        /* --- Next & Previous Card Button Styles --- */
+        #nextCardButton, #prevCardButton {
             padding: 10px 20px;
             font-size: 1em;
             cursor: pointer;
@@ -126,16 +126,14 @@
             transition: background-color 0.2s ease;
         }
 
-        #nextCardButton:hover {
+        #nextCardButton:hover, #prevCardButton:hover {
             background-color: #0056b3;
         }
 
-        #nextCardButton.visible {
+        #nextCardButton.visible, #prevCardButton.visible {
             display: inline-block;
             /* Show when manual mode is active */
         }
-
-        /* ----------------------------- */
 
         .flashcard-container {
             width: 90%;
@@ -235,7 +233,10 @@
         </div>
     </div>
 
-    <button id="nextCardButton">Thẻ tiếp theo</button>
+    <div style="text-align:center;margin-bottom:15px;">
+        <button id="prevCardButton">Câu trước</button>
+        <button id="nextCardButton">Thẻ tiếp theo</button>
+    </div>
     <!-- Simple Question/Answer Container -->
     <div id="flashcardContainer" class="flashcard-container">
         <div class="card-content">
@@ -254,6 +255,7 @@
         const questionTextElement = document.getElementById('card-question-text');
         const answersContainer = document.getElementById('card-answers');
         const nextCardButton = document.getElementById('nextCardButton');
+        const prevCardButton = document.getElementById('prevCardButton');
         const externalImageContainer = document.getElementById('externalImageContainer');
         const externalImageElement = document.getElementById('externalImage');
 
@@ -277,6 +279,7 @@
             "questions_9.json",
             "questions_10.json",
             "luat_va_daoduc.json",
+            "20_DES.json"
         ];
 
         function showStatus(message, type = 'info') {
@@ -287,8 +290,10 @@
         function updateNextButtonVisibility() {
             if (flashcardsData.length > 0) {
                 nextCardButton.classList.add('visible');
+                prevCardButton.classList.add('visible');
             } else {
                 nextCardButton.classList.remove('visible');
+                prevCardButton.classList.remove('visible');
             }
         }
 
@@ -365,6 +370,12 @@
             advanceToNextCard();
         }
 
+        function handlePrevCardClick() {
+            if (flashcardsData.length === 0) return;
+            currentIndex = (currentIndex - 1 + flashcardsData.length) % flashcardsData.length;
+            updateCardContent();
+        }
+
         function initializeFlashcards(data, detectedSubfolder = '') {
             resetFlashcardView();
             if (!Array.isArray(data) || data.length === 0) {
@@ -432,6 +443,7 @@
             loadFlashcardSet(event.target.value);
         });
         nextCardButton.addEventListener('click', handleNextCardClick);
+        prevCardButton.addEventListener('click', handlePrevCardClick);
 
         document.addEventListener('DOMContentLoaded', () => {
             populateDropdown();

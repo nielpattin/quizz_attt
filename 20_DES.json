@@ -1,0 +1,202 @@
+[
+  {
+    "question": "DES là viết tắt của gì?",
+    "answers": [
+      { "a": "Data Encryption System" },
+      { "b": "Data Encoding Standard" },
+      { "c": "Data Encryption Standard" },
+      { "d": "Digital Encryption Service" }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Chiều dài khóa của DES là bao nhiêu bit?",
+    "answers": [
+      { "a": "56 bit" },
+      { "b": "64 bit" },
+      { "c": "128 bit" },
+      { "d": "256 bit" }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "DES thuộc loại mã hóa nào?",
+    "answers": [
+      { "a": "Mã hóa bất đối xứng" },
+      { "b": "Mã hóa đối xứng" },
+      { "c": "Băm dữ liệu" },
+      { "d": "Mã hóa khóa công khai" }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Kích thước khối dữ liệu trong DES là bao nhiêu?",
+    "answers": [
+      { "a": "32 bit" },
+      { "b": "64 bit" },
+      { "c": "128 bit" },
+      { "d": "..." }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "DES sử dụng bao nhiêu vòng lặp trong quá trình mã hóa?",
+    "answers": [
+      { "a": "8" },
+      { "b": "10" },
+      { "c": "12" },
+      { "d": "16" }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Thuật toán DES sử dụng phương pháp nào để tăng cường bảo mật?",
+    "answers": [
+      { "a": "Mã hóa tuyến tính" },
+      { "b": "Mã hóa phi tuyến tính" },
+      { "c": "Thay thế và hoán vị" },
+      { "d": "Mã hóa lượng tử" }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Chức năng F trong DES là gì?",
+    "answers": [
+      { "a": "Kết hợp khóa phụ với dữ liệu đầu vào" },
+      { "b": "Giải mã dữ liệu" },
+      { "c": "Sinh khóa chính" },
+      { "d": "Mã hóa dữ liệu trực tiếp" }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "DES sử dụng bao nhiêu khóa phụ trong quá trình mã hóa?",
+    "answers": [
+      { "a": "8" },
+      { "b": "10" },
+      { "c": "12" },
+      { "d": "16" }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Loại tấn công nào thường được sử dụng để phá vỡ DES?",
+    "answers": [
+      { "a": "Tấn công từ chối dịch vụ" },
+      { "b": "Tấn công từ điển" },
+      { "c": "Tấn công vét cạn" },
+      { "d": "..." }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Cấu trúc của DES dựa trên nguyên tắc nào?",
+    "answers": [
+      { "a": "Cấu trúc vòng lặp Feistel" },
+      { "b": "Cấu trúc khối tuyến tính" },
+      { "c": "Mã hóa khối AES" },
+      { "d": "Cấu trúc ma trận" }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Lý do chính khiến DES không còn an toàn là gì?",
+    "answers": [
+      { "a": "Số vòng lặp quá ít" },
+      { "b": "Khóa quá ngắn" },
+      { "c": "Dữ liệu không được băm" },
+      { "d": "Không có kiểm tra lỗi" }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Quá trình giải mã trong DES có giống quá trình mã hóa không?",
+    "answers": [
+      { "a": "Giống hoàn toàn" },
+      { "b": "Khác hoàn toàn" },
+      { "c": "Giống nhưng khóa phụ ngược lại" },
+      { "d": "Giống nhưng giảm số vòng lặp" }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "DES được phát triển bởi công ty nào?",
+    "answers": [
+      { "a": "IBM" },
+      { "b": "Microsoft" },
+      { "c": "Google" },
+      { "d": "Intel" }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Khóa ban đầu của DES có chiều dài bao nhiêu bit trước khi loại bỏ các bit kiểm tra chẵn lẻ?",
+    "answers": [
+      { "a": "48 bit" },
+      { "b": "56 bit" },
+      { "c": "64 bit" },
+      { "d": "128 bit" }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trong DES, bước nào diễn ra đầu tiên?",
+    "answers": [
+      { "a": "Sinh khóa phụ" },
+      { "b": "Hoán vị ban đầu (IP)" },
+      { "c": "Áp dụng hàm F" },
+      { "d": "Hoán vị cuối (FP)" }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "DES sử dụng bao nhiêu bảng S-box?",
+    "answers": [
+      { "a": "2" },
+      { "b": "4" },
+      { "c": "6" },
+      { "d": "8" }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Loại chế độ hoạt động nào thường được sử dụng với DES để tăng cường bảo mật?",
+    "answers": [
+      { "a": "ECB" },
+      { "b": "CBC" },
+      { "c": "CFB" },
+      { "d": "OFB" }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong DES, \"Feistel Structure\" có vai trò gì?",
+    "answers": [
+      { "a": "Chia nhỏ dữ liệu và khóa" },
+      { "b": "Hoán vị khóa phụ" },
+      { "c": "Kết hợp dữ liệu và khóa theo vòng lặp" },
+      { "d": "Kiểm tra dữ liệu đầu vào" }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "DES sử dụng bao nhiêu phép toán XOR trong mỗi vòng lặp?",
+    "answers": [
+      { "a": "1" },
+      { "b": "2" },
+      { "c": "4" },
+      { "d": "8" }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "DES đã được thay thế bởi thuật toán nào an toàn hơn?",
+    "answers": [
+      { "a": "RSA" },
+      { "b": "AES" },
+      { "c": "SHA-256" },
+      { "d": "MD5" }
+    ],
+    "correct": "b"
+  }
+]
