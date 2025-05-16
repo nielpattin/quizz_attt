@@ -447,7 +447,7 @@
         "f": "Đáp án khác."
       }
     ],
-    "correct": "a"
+    "correct": "c"
   },
   {
     "question": "Chương trình nào không phải là chương trình chống virus?",
@@ -501,7 +501,7 @@
     "question": "Việc sử dụng đội quân zombie tấn công trên mạng là hình thức?",
     "answers": [
       {
-        "a": "DDoS"
+        "a": "DDoS (Distributed Denial of Service)"
       },
       {
         "b": "Repudiation"
@@ -513,10 +513,10 @@
         "d": "Buffer Overlow"
       },
       {
-        "e": "DoS"
+        "e": "DoS (Denial of Service)"
       },
       {
-        "f": "RDoS"
+        "f": "RDoS (Remote Denial of Service)"
       }
     ],
     "correct": "a"
