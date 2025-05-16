@@ -1,0 +1,449 @@
+[
+  {
+    "question": "MAC là một từ cấu tạo bằng những chữ đầu của một nhóm nào liên quan đến mật mã",
+    "answers": [
+      {
+        "a": "Mã xác thực thông điệp (Message authentication code)"
+      },
+      {
+        "b": "Kiểm soát truy cập bắt buộc (Mandatory access control)"
+      },
+      {
+        "c": "Kiểm soát truy cập phương tiện (Media access control)"
+      },
+      {
+        "d": "Các ủy ban đa tư vấn (Multiple advisory committees)"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Nội dung nào sau đây không cần sử dụng mật mã?",
+    "answers": [
+      {
+        "a": "Bảo mật"
+      },
+      {
+        "b": "Xác thực"
+      },
+      {
+        "c": "Toàn vẹn"
+      },
+      {
+        "d": "Truy cập"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "PKC được thực hiện bằng cách sử dụng các chức năng nào?",
+    "answers": [
+      {
+        "a": "Chuyển giao các khóa công khai an toàn"
+      },
+      {
+        "b": "Chuyển giao các khóa cá nhân an toàn"
+      },
+      {
+        "c": "Bảo mật dữ liệu ở hai đầu mút"
+      },
+      {
+        "d": "Sử dụng hai khóa khác nhau để mã hóa và giải mã"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Khái niệm nào sau đây được dùng để xác định chuẩn thực thi các hệ thống mã hóa diện rộng?",
+    "answers": [
+      {
+        "a": "PKE"
+      },
+      {
+        "b": "PKI"
+      },
+      {
+        "c": "Đối xứng"
+      },
+      {
+        "d": "Không đối xứng"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Quy trình mã hoá nào sử dụng cùng một khoá mã ở cả hai phía của một phiên làm việc",
+    "answers": [
+      {
+        "a": "Symmetrical"
+      },
+      {
+        "b": "Asymmetrical"
+      },
+      {
+        "c": "PKCS"
+      },
+      {
+        "d": "Split key"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Xác thực 2 yếu tố (two-factor authentication) trên Facebook là gì?",
+    "answers": [
+      {
+        "a": "Sau khi điền mật khẩu, người dùng nhập thêm mã bảo mật để truy cập Facebook"
+      },
+      {
+        "b": "Xác thực bằng cách nhập mật khẩu hai lần"
+      },
+      {
+        "c": "Người dùng xác thực bằng một tài khoản Facebook khác"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "PKCS sử dụng cặp khoá nào để mã hoá?",
+    "answers": [
+      {
+        "a": "Symmetric"
+      },
+      {
+        "b": "Public/private"
+      },
+      {
+        "c": "Asymmetric/symmetric"
+      },
+      {
+        "d": "Private/private"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Vấn đề gì nảy sinh khi sử dụng qui trình sinh khóa mã tập trung",
+    "answers": [
+      {
+        "a": "Bảo mật mạng"
+      },
+      {
+        "b": "Truyền khóa"
+      },
+      {
+        "c": "Thu hồi chứng chỉ"
+      },
+      {
+        "d": "Bảo mật khóa cá nhân"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giao thức nào cung cấp dịch vụ bảo mật cho các phiên làm việc trên thiết bị đầu cuối của hệ thống UNIX từ xa?",
+    "answers": [
+      {
+        "a": "SSL"
+      },
+      {
+        "b": "TLS"
+      },
+      {
+        "c": "SSH"
+      },
+      {
+        "d": "PKI"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Bạn có một fille dữ liệu trên ổ cứng, theo bạn phương pháp nào là tốt nhất để bảo mật dữ liệu đó?",
+    "answers": [
+      {
+        "a": "DSA"
+      },
+      {
+        "b": "DES"
+      },
+      {
+        "c": "RSA"
+      },
+      {
+        "d": "SHA"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Điều nào sau đây là điểm yếu của IP ?Bạn có một fille dữ liệu trên đĩa cứng , phương pháp nào theo bạn là tốt nhất để bảo mật dữ liệu đó?",
+    "answers": [
+      {
+        "a": "Mã nguồn độc hại"
+      },
+      {
+        "b": "Giả mạo IP"
+      },
+      {
+        "c": "Tấn công dạng \"Man in the middle\""
+      },
+      {
+        "d": "Tấn công chuyển tiếp"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Qui trình xác định topology của mạng được gọi là gì?",
+    "answers": [
+      {
+        "a": "In dấu chân"
+      },
+      {
+        "b": "Thiết bị làm nhiễu"
+      },
+      {
+        "c": "Quét mạng"
+      },
+      {
+        "d": "Liệt kê"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Qui trình chiếm quyền truy cập đến tài nguyên mạng (đặc biệt như là các tập tin user và nhóm) được gọi là gì?",
+    "answers": [
+      {
+        "a": "In dấu chân"
+      },
+      {
+        "b": "Thiết bị làm nhiễu"
+      },
+      {
+        "c": "Quét mạng"
+      },
+      {
+        "d": "Liệt kê"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Qui trình phá vỡ một phiên làm việc IM được gọi là gì?",
+    "answers": [
+      {
+        "a": "Thiết bị làm nhiễu"
+      },
+      {
+        "b": "Truyền rộng rãi"
+      },
+      {
+        "c": "Phản ứng với rắc rối"
+      },
+      {
+        "d": "Khảo sát định vị"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Qui trình xác định vị trí và các thông tin mạng được gọi là gì?",
+    "answers": [
+      {
+        "a": "In dấu chân"
+      },
+      {
+        "b": "Thiết bị làm nhiễu"
+      },
+      {
+        "c": "Quét mạng"
+      },
+      {
+        "d": "Liệt kê"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Bạn mới nhận cuộc gọi từ một user IM trong văn phòng mà user này đang ghé thăm một website quảng cáo. User này đang phàn nàn rằng hệ thống của anh ta không phản ứng và hàng triệu trang web đang mở trên màn hình của anh ta. Loại tấn công này là gì?",
+    "answers": [
+      {
+        "a": "DoS"
+      },
+      {
+        "b": "Mã nguồn độc hại"
+      },
+      {
+        "c": "Giả mạo IP"
+      },
+      {
+        "d": "Khảo sát định vị"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Độ an toàn của hệ mã hóa RSA dựa trên bài toán nào?",
+    "answers": [
+      {
+        "a": "Logarit rời rạc"
+      },
+      {
+        "b": "Xếp ba lô"
+      },
+      {
+        "c": "Phân tích thành tích các số nguyên tố"
+      },
+      {
+        "d": "Định lý số dư trung hoa"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Đặc trưng tiêu biểu của tiền điện tử là gì",
+    "answers": [
+      {
+        "a": "Chống gian lận"
+      },
+      {
+        "b": "Ẩn danh người dùng"
+      },
+      {
+        "c": "Phương thức thanh toán"
+      },
+      {
+        "d": "Tính hữu dụng."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Xác thực OTP là gì?",
+    "answers": [
+      {
+        "a": "Đưa ra câu hỏi phụ"
+      },
+      {
+        "b": "Mật khẩu dùng một lần"
+      },
+      {
+        "c": "Người dùng nhập lại password"
+      },
+      {
+        "d": "Xác thực dựa trên 2 yếu tố"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Xác thực dựa trên 2 yếu tố 2FA là gì?",
+    "answers": [
+      {
+        "a": "Đưa ra câu hỏi phụ"
+      },
+      {
+        "b": "Mật khẩu dùng một lần"
+      },
+      {
+        "c": "Người dùng nhập lại password"
+      },
+      {
+        "d": "Xác thực qua điện thoại."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Người có chức năng phân quyền truy cập trong hệ quản trị cơ sở dữ liệu là:",
+    "answers": [
+      {
+        "a": "Người dùng"
+      },
+      {
+        "b": "Người viết chương trình ứng dụng"
+      },
+      {
+        "c": "Người quản trị cơ sở dữ liệ"
+      },
+      {
+        "d": "Lãnh đạo cơ quan"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Cho bản rõ x = 29 khóa công khai n = 161, e = 13. Khi mã hóa bản rõ x với khóa trên theo hệ mã RSA ta sẽ thu được bản mã nào sau đây?",
+    "answers": [
+      {
+        "a": "6"
+      },
+      {
+        "b": "36"
+      },
+      {
+        "c": "63"
+      },
+      {
+        "d": "129"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong các phát biểu sau, phát biểu nào sai khi nói về phần quyền truy cập?",
+    "answers": [
+      {
+        "a": "Bảng phân quyền truy cập cũng là dữ liệu của CSDL"
+      },
+      {
+        "b": "Dựa trên bảng phân quyền để trao quyền truy cập khác nhau để khai thác dữ liệu cho các đối tượng người dùng khác nhau."
+      },
+      {
+        "c": "Mọi người đều có thể truy cập, bổ sung và thay đổi bảng phân quyền."
+      },
+      {
+        "d": "Bảng phân quyền không giới thiệu công khai cho mọi người biết."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nhận dạng người dùng là chức năng của:",
+    "answers": [
+      {
+        "a": "Người quản trị"
+      },
+      {
+        "b": "Hệ quản trị cơ sở dữ liệu"
+      },
+      {
+        "c": "Người đứng đầu tổ chức"
+      },
+      {
+        "d": "Người thiết kế cơ sở dữ liệu"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong các phát biểu sau, phát biểu nào không phải là chức năng của file log hệ thống?",
+    "answers": [
+      {
+        "a": "Lưu lại số lần truy cập vào hệ thống."
+      },
+      {
+        "b": "Lưu lại thông tin của người truy cập vào hệ thống"
+      },
+      {
+        "c": "Lưu lại các yêu cầu tra cứu hệ thống."
+      },
+      {
+        "d": "Nhận diện người dùng để cung cấp dữ liệu mà họ được phân quyền truy cập"
+      }
+    ],
+    "correct": "d"
+  }
+]

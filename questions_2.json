@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Chữ ký điện tử là",
+    "answers": [
+      {
+        "a": "Là một chuỗi được mã hóa theo thuật toán băm và đính kèm với văn bản gốc trước khi gửi."
+      },
+      {
+        "b": "Đoạn dữ liệu ngắn đính kèm với văn bản gốc để chứng thực tác giả của văn bản và giúp người nhận kiểm tra tính toàn vẹn của nội dung văn bản gốc."
+      },
+      {
+        "c": "a) và b) đều đúng"
+      },
+      {
+        "d": "Tất cả cả đều sai"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Giao thức bảo mật IPSec họat động ở tầng",
+    "answers": [
+      {
+        "a": "Chỉ ở tầng transport ở mô hình OSI"
+      },
+      {
+        "b": "Từ tầng 4 tới tầng 7 ở mô hình OSI"
+      },
+      {
+        "c": "Network Layer ở mô hình OSI"
+      },
+      {
+        "d": "Tất cả đều sai"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trojan là một phương thức tấn công kiểu",
+    "answers": [
+      {
+        "a": "Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng"
+      },
+      {
+        "b": "Đánh cắp dữ liệu của nạn nhân truyền trên mạng"
+      },
+      {
+        "c": "Tấn công làm tê liệt hệ thống mạng của nạn nhân"
+      },
+      {
+        "d": "Điều khiển máy tính nạn nhân từ xa thông qua phần mềm cài sẵn trong máy nạn nhân"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Dịch vụ Active Directory thực hiện các chức năng sau",
+    "answers": [
+      {
+        "a": "Tổ chức và xây dựng các domain; xác thực và cấp quyền cho các đối tượng"
+      },
+      {
+        "b": "Duy các hoạt động của các dịch vụ bảo mật cho Window Server và xác thực, cấp quyền cho các đối tượng"
+      },
+      {
+        "c": "Chỉ thực hiện việc xác thực và cấp các quyền cho users và groups"
+      },
+      {
+        "d": "Quản lý tài nguyên và người dùng; xác thực và cấp các quyền cho users và groups; giám sát họat động của các user."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Thuật toán thực hiện trong cơ chế bảo mật IP (IPSec) ở Window là",
+    "answers": [
+      {
+        "a": "MD5 và SHA1"
+      },
+      {
+        "b": "Kerberos và DES"
+      },
+      {
+        "c": "DES hoặc 3DES."
+      },
+      {
+        "d": "Tất cả đều sai"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Để thực hiện sửa đổi cấu hình trên registry ta thực hiện như sau",
+    "answers": [
+      {
+        "a": "Gõ regedit vào cửa sổ Run."
+      },
+      {
+        "b": "Bấm Ctrl+ Esc+ R rồi bấm Enter."
+      },
+      {
+        "c": "a và b đúng."
+      },
+      {
+        "d": "Tất cả đều sai"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hai giao thức sử dụng trong giao thức IPSec gồm",
+    "answers": [
+      {
+        "a": "IP Authentication Header, TCP/IP"
+      },
+      {
+        "b": "TCP/IP, IP Encapsulating Security Payload"
+      },
+      {
+        "c": "IP Authentication Header, IP Encapsulating Security Payload"
+      },
+      {
+        "d": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Các điểm khác nhau cơ bản giữa dịch vụ X.509 và Kerberos là",
+    "answers": [
+      {
+        "a": "Dựa trên mã hóa đối xứng"
+      },
+      {
+        "b": "Được sử dụng trong dịch vụ mail"
+      },
+      {
+        "c": "Xác thực nhiều chiều"
+      },
+      {
+        "d": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Các chức năng cơ bản của kỹ thuật tấn công Sniffer",
+    "answers": [
+      {
+        "a": "Tự động chụp Username người dùng và mật khẩu không được mã hoá, chuyển đổi dữ liệu trên đường truyền, phân tích những lỗi đang mắc phải trên hệ thống lưu lượng của mạng."
+      },
+      {
+        "b": "Bắt gói tin trên đường truyền, phân tích lỗi và giải mã gói tin"
+      },
+      {
+        "c": "Bắt gói tin trên đường truyền, mã hóa vag giải mã dữ liệu"
+      },
+      {
+        "d": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các bước tấn công của Web Server theo trình tự sau",
+    "answers": [
+      {
+        "a": "Thăm dò, quét, giành quyền truy cập, duy trì truy cập, xóa vết"
+      },
+      {
+        "b": "quét, Thăm dò, giành quyền truy cập, duy trì truy cập, xóa vết"
+      },
+      {
+        "c": "Thăm dò, quét, duy trì truy cập, giành quyền truy cập, xóa vết"
+      },
+      {
+        "d": "Giành quyền truy cập, duy trì truy cập, quét, thăm dò"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Hiện tượng mất một số file, làm phân mãnh ổ đĩa, gây tác hại vào những ngày, tháng đặc biệt do loại chương trình nguy hiểm nào gây ra:",
+    "answers": [
+      {
+        "a": "Virrus, Zombie"
+      },
+      {
+        "b": "Worm, Virus"
+      },
+      {
+        "c": "Logicbomb, Virus"
+      },
+      {
+        "d": "Trapdoors, Trojan"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hai cơ chế chính của hệ thống IDS Trigger phát hiện khi có kẻ xâm nhập tấn công mạng là:",
+    "answers": [
+      {
+        "a": "Phát hiện biểu hiện không bình thường, phát hiện sử dụng không đúng."
+      },
+      {
+        "b": "Phát hiện hiện tượng trùng lặp, phát hiện không bình thường."
+      },
+      {
+        "c": "Phát hiện thay đổi, phát hiện sử dụng bất bình thường."
+      },
+      {
+        "d": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Mục tiêu là phân tích mật mã là gì?",
+    "answers": [
+      {
+        "a": "Để xác định thế mạnh của các thuật toán một."
+      },
+      {
+        "b": "Để tăng cường chức năng thay thế trong một thuật toán mật mã."
+      },
+      {
+        "c": "Để giảm chức năng transposition trong một thuật toán mật mã."
+      },
+      {
+        "d": "Để xác định hoán vị sử dụng."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Nếu kẻ tấn công lấy trộm một mật khẩu có chứa một chiều mật khẩu đã mật mã, loại tấn công sẽ thực hiện để tìm mật khẩu đã mã hóa là gì?",
+    "answers": [
+      {
+        "a": "Tấn công Man-in-the-middle"
+      },
+      {
+        "b": "Tấn công Birthday"
+      },
+      {
+        "c": "Tấn công Denial of Service"
+      },
+      {
+        "d": "Tấn công Dictionary"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Ưu điểm của chữ ký số RSA so với DSS là gì?",
+    "answers": [
+      {
+        "a": "Có thể cung cấp cho chữ ký số và mã hóa các chức năng."
+      },
+      {
+        "b": "Sử dụng nguồn tài nguyên ít hơn và mã hóa nhanh hơn bởi vì nó sử dụng các phím đối xứng."
+      },
+      {
+        "c": "Là một thuật toán mật mã khối so với một thuật toán mật mã dòng."
+      },
+      {
+        "d": "Sử dụng một lần mã hóa pad."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Những gì được dùng khi tạo một chữ ký điện tử?",
+    "answers": [
+      {
+        "a": "Khóa riêng của người nhận."
+      },
+      {
+        "b": "Khóa công khai của người gửi."
+      },
+      {
+        "c": "Khóa riêng của người gửi."
+      },
+      {
+        "d": "Khóa công khai của người nhận."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hệ mã hóa DES sử dụng bao nhiêu bit đầu vào để mã hóa?",
+    "answers": [
+      {
+        "a": "16"
+      },
+      {
+        "b": "32"
+      },
+      {
+        "c": "56"
+      },
+      {
+        "d": "64"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Đối với Firesall lọc gói, hình thức tấn công nào sau đây được thực hiện",
+    "answers": [
+      {
+        "a": "Giả mạo địa chỉ IP, tấn công giữa, tấn công biên."
+      },
+      {
+        "b": "Giả mạo địa chỉ IP, tấn công đường đi nguồn, tấn công từng mẫu nhỏ."
+      },
+      {
+        "c": "Giả mạo địa chỉ IP, tấn công vượt firewall,tấn công từng mẫu nhỏ."
+      },
+      {
+        "d": "Giả mạo địa chỉ IP, tấn công vượt firewall, tấn công đường đi nguồn."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Ai là người tham gia vào việc phát triển đầu tiên hệ thống mã hóa khóa công?",
+    "answers": [
+      {
+        "a": "Adi Shamir"
+      },
+      {
+        "b": "Ross Anderson"
+      },
+      {
+        "c": "Bruce Schneier"
+      },
+      {
+        "d": "Martin Hellman"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "DES là viết tắt của từ nào?",
+    "answers": [
+      {
+        "a": "Data encryption system"
+      },
+      {
+        "b": "Data encryption standard"
+      },
+      {
+        "c": "Data encoding standard"
+      },
+      {
+        "d": "Data encryption signature"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giai đoạn đầu của hacking là gì?",
+    "answers": [
+      {
+        "a": "Duy trì truy cập"
+      },
+      {
+        "b": "Gaining truy cập"
+      },
+      {
+        "c": "Trinh sát"
+      },
+      {
+        "d": "Dò tìm (Scanning)"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
+    "answers": [
+      {
+        "a": "Tấn công từ xa."
+      },
+      {
+        "b": "Tấn công truy cập vật lý."
+      },
+      {
+        "c": "Truy cập địa phương."
+      },
+      {
+        "d": "Tấn công tấn công nội bộ."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Footprinting là gì?",
+    "answers": [
+      {
+        "a": "Đo dấu vết của một hacker có đạo đức"
+      },
+      {
+        "b": "Tích luỹ dữ liệu bằng cách thu thập thông tin về một mục tiêu"
+      },
+      {
+        "c": "Quét một mạng lưới mục tiêu để phát hiện hệ điều hành các loại"
+      },
+      {
+        "d": "Sơ đồ bố trí vật lý của một mạng của mục tiêu"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Công cụ nào sau đây đúng là một công cụ để thực hiện footprinting không bị phát hiện?",
+    "answers": [
+      {
+        "a": "Whois search"
+      },
+      {
+        "b": "Traceroute"
+      },
+      {
+        "c": "Ping sweep"
+      },
+      {
+        "d": "Host scanning"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Bước tiếp theo sẽ được thực hiện sau khi footprinting là gì?",
+    "answers": [
+      {
+        "a": "Scanning"
+      },
+      {
+        "b": "Enumeration"
+      },
+      {
+        "c": "System hacking"
+      },
+      {
+        "d": "Active information gathering"
+      }
+    ],
+    "correct": "a"
+  }
+]

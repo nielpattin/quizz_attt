@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Một đêm làm việc khuya và bạn phát hiện rằng ổ cứng của bạn hoạt động rất tích cực mặc dù bạn không thực hiện bất kỳ thao tác nào trên máy tính. Bạn nghi ngờ điều gì?",
+    "answers": [
+      {
+        "a": "Khả năng ổ đĩa ngừng hoạt động sắp xảy ra"
+      },
+      {
+        "b": "Một virus đang phát tán rộng trong hệ thống"
+      },
+      {
+        "c": "Hệ thống của bạn đang chịu tác động của tấn công DoS"
+      },
+      {
+        "d": "Tấn công TCP/IP hijacking đang cố gắng thực hiện"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các log file trên hệ thống của bạn phát hiện một nổ lực giành quyền truy cập đến một tài khoản đơn. Nổ lực này đã không thành công vào thời điểm đó. Theo kinh nghiệm của bạn thì loại tấn công thích hợp nhất là gì?",
+    "answers": [
+      {
+        "a": "Tấn công đoán mật khẩu"
+      },
+      {
+        "b": "Tấn công cửa sau"
+      },
+      {
+        "c": "Tấn công bằng sâu"
+      },
+      {
+        "d": "TCP/IP hijacking"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Bạn nhận được một email từ Microsoft, trong đó có một file đính kèm. Trong thư nói rằng có một số lỗi đã được phát hiện và sửa chữa , bạn phải chạy chương trình được đính kèm trong thư để sửa những lỗi đó. Trong trường hợp này bạn sẽ làm gì để bảo đảm an toàn?",
+    "answers": [
+      {
+        "a": "Lưu chương trình đó lại và dùng chương trình diệt virus để quét, nếu không phát hiện thấy virus, sẽ chạy chương trình đó để sửa lỗi"
+      },
+      {
+        "b": "Mở chương trình và chạy nó ngay. Chương trình đó thật sự an toàn vì gửi từ Microsoft"
+      },
+      {
+        "c": "Xoá email đó ngay vì Microsoft không bao giờ gửi chương trình sửa lỗi qua email."
+      },
+      {
+        "d": "Tất cả đều sai."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "IP Security Policy được Windows cấu hình với 3 Policies mặc định. Trong đó Policy có tên “Secure Server (Request Security)” mang ý nghĩa:",
+    "answers": [
+      {
+        "a": "Máy tính cũng gửi yêu cầu sử dụng IPSec. Nếu máy kia không đáp ứng thì vẫn có thể giao tiếp bình thường (không có IPSec)."
+      },
+      {
+        "b": "Nếu một máy khác yêu cầu dùng IPSec để giao tiếp, máy sẽ từ chối - không giao tiếp."
+      },
+      {
+        "c": "Máy tính cũng gửi yêu cầu sử dụng IPSec. Nếu máy kia không đáp ứng thì kết thúc phiên giao tiếp."
+      },
+      {
+        "d": "Nếu một máy khác yêu cầu dùng IPSec để giao tiếp, máy tính sẽ tự kích hoạt IPSec."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Khi xây dựng VPN Server bằng dịch vụ RRAS trên Windows Server 2003, người quản trị của một Doanh nghiệp cần phải xác định trước dãy IP address sẽ cấp phép cho các máy VPN Client đăng nhập vào hệ thống. Dãy IP này phải là:",
+    "answers": [
+      {
+        "a": "Dãy IP address bất kỳ, nhưng phải bằng hoặc lớn hơn số lượng client đăng nhập vào hệ thống mạng qua VPN."
+      },
+      {
+        "b": "Dãy IP address cùng Net.ID với các mạng bên trong VPN Server của Doanh nghiệp. Đồng thời, không cùng Net.ID với mạng nội bộ nơiVPN Client là thành viên."
+      },
+      {
+        "c": "Dãy IP address này phải cùng Net.ID với mạng nội bộ của VPN Client."
+      },
+      {
+        "d": "Dãy IP address này là đoạn “Exclusive IP addresses” của Scope trên DHCP Server của mạng Doanh nghiệp."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Bạn là người quản trị mạng tại trung tâm. Máy Server ISA1 cung cấp truy cập Internet cho tất cả máy trong mạng. Để phòng tránh người dùng vô tình tải và thực thi các tập tin virus (dạng *.exe, *.com, *.dll,. . . ). Bạn chọn giải pháp nào sau đây?",
+    "answers": [
+      {
+        "a": "Lập một Access Rule cấm người dùng truy cập HTTP."
+      },
+      {
+        "b": "Lập một Access Rule cho phép truy cập HTTP. Trong hộp thoại “Content Type” của Access Rule này: bỏ chọn “Application”"
+      },
+      {
+        "c": "Tạo một “Content Type” trong đó chứa danh sách tập tin Virus. Tạo Access Rule cấm người dùng truy cập HTTP trên Content này."
+      },
+      {
+        "d": "Lập một Access Rule cấm truy cập HTTP vào các Web Site phát tán Virus."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Bạn là người quản trị mạng tại trung tâm. Máy Server ISA1 cung cấp giao tiếp Internet cho tất cả máy trong mạng. Để đảm bảo an toàn cho tất cả Client, Bạn quyết định triển khai giao tiếp internet cho Client kiểu Web Client Proxy. Triển khai vấn đề này, ISA1 phải được cấu hình như là một Proxy Server, bằng cách",
+    "answers": [
+      {
+        "a": "Trên máy ISA1, trong nhánh “Networks”: Properties cho “Internal” vào tab “Web Proxy” và chọn “Enable Web Proxy Client”."
+      },
+      {
+        "b": "Trên máy ISA1, trong nhánh “Networks”: Properties cho “External” vào tab “Web Proxy” và chọn “Enable Proxy”."
+      },
+      {
+        "c": "Trên máy ISA1, trong “Internet Options” vào tab “Connection” chọn nút “LAN Settings” và chọn “Use a Proxy Server”."
+      },
+      {
+        "d": "Trên máy ISA1, trong nhánh “Networks”: Properties chọn “Local Host” vào tab “Web Proxy” và chọn “Enable Proxy”"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Yêu cầu để đảm bảo sử dụng mã hóa đối xứng là gì?",
+    "answers": [
+      {
+        "a": "Có thuật toán mã hóa tốt,có một khóa bí mật được biết bởi người nhận/gửi và kênh truyền bí mật để phân phát khóa."
+      },
+      {
+        "b": "Có một kênh truyền phù hợp và một khóa bí mật được biết bởi người nhận/gửi."
+      },
+      {
+        "c": "Có thuật toán mã hóa tốt và có một khóa bí mật được biết bởi người nhận/gửi"
+      },
+      {
+        "d": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Các thuật toán nào sau đây là thuật tóan mã hóa đối xứng?",
+    "answers": [
+      {
+        "a": "Triple-DES, RC4, RC5, Blowfish"
+      },
+      {
+        "b": "Triple-DES, RC4, RC5, IDEA"
+      },
+      {
+        "c": "RC4, RC5, IDEA, Blowfish"
+      },
+      {
+        "d": "IDEA, Blowfish, AES, ECC."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Cơ chế bảo mật SSL hoạt động trên tầng nào?",
+    "answers": [
+      {
+        "a": "Network, Transport"
+      },
+      {
+        "b": "Network, Session"
+      },
+      {
+        "c": "Application, Session"
+      },
+      {
+        "d": "Tất cả đều sai"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Keberos là dịch vụ ủy thác",
+    "answers": [
+      {
+        "a": "Xác thực trên Web"
+      },
+      {
+        "b": "Xác thực X.509"
+      },
+      {
+        "c": "Xác thực trên Server"
+      },
+      {
+        "d": "Xác thực trên các máy trạm với nhau"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Giao thức bảo mật cho mạng không dây là",
+    "answers": [
+      {
+        "a": "Giao thức SSL"
+      },
+      {
+        "b": "Giao thức TSL"
+      },
+      {
+        "c": "Giao thức PGP"
+      },
+      {
+        "d": "Giao thức WEP"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Có bao nhiêu kiểu dữ liệu trong Registry",
+    "answers": [
+      {
+        "a": "4"
+      },
+      {
+        "b": "5"
+      },
+      {
+        "c": "6"
+      },
+      {
+        "d": "7"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giao thức SSL và TSL hoạt động ở tầng nào của mô hình OSI",
+    "answers": [
+      {
+        "a": "Network"
+      },
+      {
+        "b": "Sesion"
+      },
+      {
+        "c": "Transport"
+      },
+      {
+        "d": "Tầng Trasport trở lên"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Giao thức SSL dùng để",
+    "answers": [
+      {
+        "a": "Cung cấp bảo mật cho dữ liệu lưu thông trên dịch vụ HTTP"
+      },
+      {
+        "b": "Cung cấp bảo mật cho thư điện tử"
+      },
+      {
+        "c": "Cung cấp bảo mật cho Web"
+      },
+      {
+        "d": "Cung cấp bảo mật cho xác thực người dùng vào các hệ thống vận hành trên Window."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Hoạt động của virus có 4 giai đoạn là",
+    "answers": [
+      {
+        "a": "Nằm im, lây nhiễm, tàn phá và tự hủy"
+      },
+      {
+        "b": "Lây nhiễm, tấn công, hủy diệt và tự hủy"
+      },
+      {
+        "c": "Nằm im, lây nhiễm, khởi sự và tàn phá"
+      },
+      {
+        "d": "Lây nhiễm, khởi sự, tàn phát, kích họat lại"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Virus Macro chỉ có khả năng tấn công vào các file",
+    "answers": [
+      {
+        "a": "MS Exel, MS Word, MS Outlook Mail"
+      },
+      {
+        "b": "MS Exel, MS Word, MS Power Point"
+      },
+      {
+        "c": "MS Exel, MS Word, Yahoo Mail"
+      },
+      {
+        "d": "Tất cả các loại file"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Độ an toàn của hệ mã hóa Rabin dựa trên bài toán nào?",
+    "answers": [
+      {
+        "a": "Logarit rời rạc"
+      },
+      {
+        "b": "Xếp ba lô"
+      },
+      {
+        "c": "Phân tích thành tích các số nguyên tố"
+      },
+      {
+        "d": "Định lý số dư trung hoa"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Kỹ thuật tấn công phổ biến trên Web là",
+    "answers": [
+      {
+        "a": "Chiếm hữu phiên làm việc."
+      },
+      {
+        "b": "Tràn bộ đệm."
+      },
+      {
+        "c": "Từ chối dịch vụ (DoS)"
+      },
+      {
+        "d": "Chèn câu truy vấn SQL."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Các lỗ hổng bảo mật trên hệ thống là do",
+    "answers": [
+      {
+        "a": "Dịch vụ cung cấp"
+      },
+      {
+        "b": "Bản thân hệ điều hành"
+      },
+      {
+        "c": "Con người tạo ra"
+      },
+      {
+        "d": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Cho biết câu nào đúng trong các câu sau",
+    "answers": [
+      {
+        "a": "Tất cả Firewall đều có chung thuộc tính là cho phép phân biệt hay đối xử khả năng từ chối hay truy nhập dựa vào địa chỉ nguồn"
+      },
+      {
+        "b": "Chức năng chính của Firewall là kiểm sóat luồng thông tin giữa mạng cần bảo vệ và Internet thông qua các chính sách truy nhập đã được thiết lập"
+      },
+      {
+        "c": "Hệ thống Firewall thường bao gồm cả phần cứng lẫn phần mềm."
+      },
+      {
+        "d": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Khi thuê một giải pháp VPN, những loại tấn công nào bạn cần phải xét đến?",
+    "answers": [
+      {
+        "a": "DoS attacks, Internet Viruses."
+      },
+      {
+        "b": "DDoS attacks."
+      },
+      {
+        "c": "Data confidentiality, IP Spoofing."
+      },
+      {
+        "d": "Network mapping, Internet Viruses."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các giao thức được để bảo mật thư điện tử là",
+    "answers": [
+      {
+        "a": "GPG, S/MINE"
+      },
+      {
+        "b": "SHA-1, S/MINE"
+      },
+      {
+        "c": "CAST-128 / IDEA/3DES"
+      },
+      {
+        "d": "Keboros, X.509"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Chữ ký điện tử sử dụng thuật tóan nào sau đây",
+    "answers": [
+      {
+        "a": "RSA, MD5"
+      },
+      {
+        "b": "RSA, MD5, Keboros"
+      },
+      {
+        "c": "MD5, SHA,RSA"
+      },
+      {
+        "d": "Không dùng thuật tóan nào nêu trên"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Loại Firewall nào sau đây cho phép hoạt động ở lớp phiên (Session) của mô hình OSI",
+    "answers": [
+      {
+        "a": "Packet filtering firewall"
+      },
+      {
+        "b": "Circuit level firewall"
+      },
+      {
+        "c": "Application level firewall"
+      },
+      {
+        "d": "Stateful multilayer inspection firewall"
+      }
+    ],
+    "correct": "b"
+  }
+]

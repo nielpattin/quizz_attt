@@ -1,0 +1,455 @@
+[
+  {
+    "question": "Version của chứng chỉ X.509 dùng phổ biến nhất hiện nay?",
+    "answers": [
+      {
+        "a": "1"
+      },
+      {
+        "b": "2"
+      },
+      {
+        "c": "3"
+      },
+      {
+        "d": "4"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hệ mã hóa thay thế dùng bảng chữ cái tiếng Anh (26 ký tự) sẽ có số khả năng biểu diễn mã?",
+    "answers": [
+      {
+        "a": "226"
+      },
+      {
+        "b": "262"
+      },
+      {
+        "c": "2626"
+      },
+      {
+        "d": "26!"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Giao thức thường được sử dụng với mạng riêng ảo (VPN)?",
+    "answers": [
+      {
+        "a": "IPSec"
+      },
+      {
+        "b": "SSH"
+      },
+      {
+        "c": "SSL/TLS"
+      },
+      {
+        "d": "Kerberos"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Tường lửa loại Packet Filter được đặt tại lớp nào?",
+    "answers": [
+      {
+        "a": "Physical"
+      },
+      {
+        "b": "Data link"
+      },
+      {
+        "c": "Transport"
+      },
+      {
+        "d": "Network"
+      },
+      {
+        "e": "Application"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Hệ mã hóa Affine có bao nhiêu khóa?",
+    "answers": [
+      {
+        "a": "123"
+      },
+      {
+        "b": "132"
+      },
+      {
+        "c": "213"
+      },
+      {
+        "d": "312"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Audit (kiểm tra, kiểm toán) dùng trong an toàn cơ sở dữ liệu nhằm",
+    "answers": [
+      {
+        "a": "Xác thực đó là ai?"
+      },
+      {
+        "b": "Cấp quyền ai có thể làm gì?"
+      },
+      {
+        "c": "Ai đã làm gì?"
+      },
+      {
+        "d": "Tất cả a, b, c đều đúng."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hệ mã hóa hoán vị với độ dài khóa m = 8 có bao nhiêu khóa?",
+    "answers": [
+      {
+        "a": "8!"
+      },
+      {
+        "b": "268"
+      },
+      {
+        "c": "826"
+      },
+      {
+        "d": "26!"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Trong DAC, mô hình nào sử dụng cấu trúc đồ thị tĩnh và đồ thị động?",
+    "answers": [
+      {
+        "a": "Mô hình truy cập CSDL đa mức"
+      },
+      {
+        "b": "Mô hình Take-grant."
+      },
+      {
+        "c": "Mô hình ma trận truy cập"
+      },
+      {
+        "d": "Mô hình Acten (Action. Entity)"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Timestamp trong thông điệp dùng để làm gì?",
+    "answers": [
+      {
+        "a": "Dùng để ghi nhận số lần trao đổi"
+      },
+      {
+        "b": "Dùng để xác định thời gian hết hạn"
+      },
+      {
+        "c": "Dùng để cho phép giao dịch"
+      },
+      {
+        "d": "Tất cả a, b, c đều đúng."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Kích thước của bản mã trong hệ mã hóa RSA so với bản rõ là",
+    "answers": [
+      {
+        "a": "Bằng nhau."
+      },
+      {
+        "b": "Bằng 1/2."
+      },
+      {
+        "c": "Gấp đôi lần."
+      },
+      {
+        "d": "Gấp ba lần."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Virus máy tính không thể lây lan qua",
+    "answers": [
+      {
+        "a": "Mạng máy tính"
+      },
+      {
+        "b": "Đĩa CD"
+      },
+      {
+        "c": "Thẻ nhớ Flash"
+      },
+      {
+        "d": "USB"
+      }
+    ],
+    "correct": "f"
+  },
+  {
+    "question": "Kích thước của bản mã trong hệ mã hóa Elgamal so với bản rõ là",
+    "answers": [
+      {
+        "a": "Bằng nhau."
+      },
+      {
+        "b": "Bằng 1/2."
+      },
+      {
+        "c": "Gấp đôi lần."
+      },
+      {
+        "d": "Gấp ba lần."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Loại file nào có thể phát tán được virus?",
+    "answers": [
+      {
+        "a": "EXE"
+      },
+      {
+        "b": ".COM"
+      },
+      {
+        "c": ".BAT"
+      },
+      {
+        "d": "Tất cả đều sai."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Các loại mã hóa trong hệ thống thông tin bao gồm",
+    "answers": [
+      {
+        "a": "Mã hóa nguồn, mã hóa kênh, mã hóa đường truyền."
+      },
+      {
+        "b": "Mã hóa nguồn, mã hóa dữ liệu, mã hóa đường truyền."
+      },
+      {
+        "c": "Mã hóa thông tin, mã hóa tín hiệu, mã hóa nguồn."
+      },
+      {
+        "d": "Mã hóa điều chế, mã hóa khôi phục, mã hóa bảo mật."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "An toàn dữ liệu có thể hiểu là:",
+    "answers": [
+      {
+        "a": "Dễ dàng cho công việc bảo trì dữ liệu"
+      },
+      {
+        "b": "Ngăn chặn các truy nhập trái phép, sai quy định từ trong ra hoặc từ ngoài vào..."
+      },
+      {
+        "c": "Thống nhất các tiêu chuẩn, thủ tục và các biện pháp bảo vệ, an toàn dữ liệu."
+      },
+      {
+        "d": "Tính nhất quán và toàn vẹn dữ liệu."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thám mã khi không biết khoá",
+    "answers": [
+      {
+        "a": "Bài toán dễ"
+      },
+      {
+        "b": "Bài toán khó"
+      },
+      {
+        "c": "a) và b) sai vì phụ thuộc vào khoá"
+      },
+      {
+        "d": "a) và b) sai vì phụ thuộc vào giải thuật."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Khoá riêng có đặc điểm",
+    "answers": [
+      {
+        "a": "Thời gian thực hiện chậm"
+      },
+      {
+        "b": "Thời gian thực hiện nhanh."
+      },
+      {
+        "c": "Không an toàn"
+      },
+      {
+        "d": "Được thay thế bằng khoá công khai."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Độ an toàn của hệ mã hóa Merkle-Hellman dựa trên bài toán nào?",
+    "answers": [
+      {
+        "a": "Logarit rời rạc"
+      },
+      {
+        "b": "Xếp ba lô"
+      },
+      {
+        "c": "Phân tích thành tích các số nguyên tố"
+      },
+      {
+        "d": "Định lý số dư trung hoa"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "DAC trong hệ quản trị cơ sở dữ liệu có mấy mức?",
+    "answers": [
+      {
+        "a": "1"
+      },
+      {
+        "b": "2"
+      },
+      {
+        "c": "3"
+      },
+      {
+        "d": "4"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nên cài mức truy cập mặc định cơ sở dữ liệu là mức nào sau đây?",
+    "answers": [
+      {
+        "a": "Full access"
+      },
+      {
+        "b": "No access"
+      },
+      {
+        "c": "Read access"
+      },
+      {
+        "d": "Write access"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Quyền truy cập nào cho phép ta hiệu chỉnh thuộc tính của một tập tin?",
+    "answers": [
+      {
+        "a": "Modify"
+      },
+      {
+        "b": "Copy"
+      },
+      {
+        "c": "Change"
+      },
+      {
+        "d": "Edit"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Chính sách tài khoản nào cần thiết lập để ngăn chặn các cuộc tấn công ác ý vào tài khoản user?",
+    "answers": [
+      {
+        "a": "Hạn chế thời gian"
+      },
+      {
+        "b": "Ngày hết hạn tài khoản"
+      },
+      {
+        "c": "Giới hạn số lần logon"
+      },
+      {
+        "d": "Disable tài khoản không dùng đến"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Chiều dài tối thiểu của mật khẩu cần phải là",
+    "answers": [
+      {
+        "a": "12 đến 15 ký tự"
+      },
+      {
+        "b": "3 đến 5 ký tự"
+      },
+      {
+        "c": "8 ký tự"
+      },
+      {
+        "d": "1 đến 3 ký tự"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Để ngăn tấn công DoS, một quản trị mạng chặn nguồn IP với tường lửa, nhưng tấn công vẫn tiếp diễn. Điều gì có khả năng xảy ra nhất?",
+    "answers": [
+      {
+        "a": "Sâu DoS đã lây nhiễm cục bộ."
+      },
+      {
+        "b": "Cần cài đặt phần mềm Antivirus trên máy chủ đích"
+      },
+      {
+        "c": "a) và b) đều có thể xảy ra."
+      },
+      {
+        "d": "a) và b) đều không thể xảy ra."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Các loại khoá mật mã nào sau đây dễ bị crack nhất ?",
+    "answers": [
+      {
+        "a": "40"
+      },
+      {
+        "b": "128"
+      },
+      {
+        "c": "192"
+      },
+      {
+        "d": "256"
+      }
+    ],
+    "correct": "a"
+  }
+]

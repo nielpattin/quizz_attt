@@ -1,0 +1,437 @@
+[
+  {
+    "question": "Để quét lỗ hổng mạng thường sử dụng phần mềm nào?",
+    "answers": [
+      {
+        "a": "SupterScan"
+      },
+      {
+        "b": "Nessus"
+      },
+      {
+        "c": "Nmap"
+      },
+      {
+        "d": "Scapy"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hệ mã hóa trên đường cong Elliptic được xây dựng dựa trên nguyên lý gì?",
+    "answers": [
+      {
+        "a": "Giới hạn khả năng tính toán cho các thiết bị di động."
+      },
+      {
+        "b": "Nhúng các điểm trên đường cong"
+      },
+      {
+        "c": "Ứng dụng trong thương mại điện tử"
+      },
+      {
+        "d": "Sử dụng phương trình Weierstrass"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Hệ mã hóa nào là hệ mã hóa không đơn định?",
+    "answers": [
+      {
+        "a": "RSA"
+      },
+      {
+        "b": "Rabin"
+      },
+      {
+        "c": "Elgamal"
+      },
+      {
+        "d": "Merkle-Hellman"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nguyên tắc thám mã phổ biến nhất đối với các hệ mã hóa cổ điển là gì?",
+    "answers": [
+      {
+        "a": "Dựa trên tần suất xuất hiện các ký tự."
+      },
+      {
+        "b": "Dựa trên đặc trưng ngôn ngữ."
+      },
+      {
+        "c": "Dựa trên văn phong."
+      },
+      {
+        "d": "Dựa trên thử sai và vét cạn."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Cụm từ nào sau đây không phải là tên của một lĩnh vực trong công tác quản trị mạng?",
+    "answers": [
+      {
+        "a": "Accounting management"
+      },
+      {
+        "b": "Fault management"
+      },
+      {
+        "c": "Group management"
+      },
+      {
+        "d": "Configuration management"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Các hệ thống quản trị mạng được xây dựng trên nền giao thức nào?",
+    "answers": [
+      {
+        "a": "ICMP"
+      },
+      {
+        "b": "SNMP"
+      },
+      {
+        "c": "SMTP"
+      },
+      {
+        "d": "SFTP"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Muốn hệ thống mạng hoạt động hiệu quả người ta thường",
+    "answers": [
+      {
+        "a": "Tăng số lượng Collision Domain, giảm kích thước các Collision Domain"
+      },
+      {
+        "b": "Tăng số lượng Collision Domain, tăng kích thước các Collision Domain"
+      },
+      {
+        "c": "Giảm số lượng Collision Domain, giảm kích thước các Collision Domain"
+      },
+      {
+        "d": "Giảm số lượng Collision Domain, tăng kích thước các Collision Domain"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Tác hại của virus máy tính",
+    "answers": [
+      {
+        "a": "Tiêu tốn tài nguyên hệ thống."
+      },
+      {
+        "b": "Phá hủy hoặc đánh cắp dữ liệu"
+      },
+      {
+        "c": "Gây khó chịu cho người dùng"
+      },
+      {
+        "d": "Cả 3 phương án a, b, c đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Lệnh nào trong Windows cmd thực hiện kiểm tra các cổng đang bị lắng nghe",
+    "answers": [
+      {
+        "a": "ipconfig"
+      },
+      {
+        "b": "netstat –an"
+      },
+      {
+        "c": "Tracert"
+      },
+      {
+        "d": "nslookup"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Để nâng cao hiệu quả của việc bảo mật, chúng ta cần phải:",
+    "answers": [
+      {
+        "a": "Thường xuyên sao chép dữ liệu"
+      },
+      {
+        "b": "Thường xuyên thay đổi các tham số của hệ thống bảo vệ."
+      },
+      {
+        "c": "Thường xuyên nâng cấp phần cứng, phần mềm."
+      },
+      {
+        "d": "Nhận dạng người dùng bằng mã hoá."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Sau một user đã được định danh (indentifed), điều gì cần phải làm trước khi họ log vào một mạng máy tính?",
+    "answers": [
+      {
+        "a": "Xác thực mật khẩu."
+      },
+      {
+        "b": "Họ phải đăng nhập user ID đã được mã hóa."
+      },
+      {
+        "c": "Được phép truy cập với mức ưu tiên được thiết lập."
+      },
+      {
+        "d": "Người quản trị phải enable để gõ vào."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Điều gì cần thực hiện đối với tập tin mật khẩu để ngăn chặn một người dùng trái phép crack vào các nội dung?",
+    "answers": [
+      {
+        "a": "Hủy bỏ tất cả các quyền truy cập."
+      },
+      {
+        "b": "Mã hóa tập tin mật khẩu."
+      },
+      {
+        "c": "Di chuyển ngoại tuyến đến một đĩa mềm."
+      },
+      {
+        "d": "Sao chép đến một tập tin bù nhìn với một tên khác."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các quyền truy cập tối đa nên dành cho user là gì?",
+    "answers": [
+      {
+        "a": "Ít nhất là quyền đọc và ghi"
+      },
+      {
+        "b": "Không có quyền truy cập"
+      },
+      {
+        "c": "Đủ để thực hiện công việc theo chức trách"
+      },
+      {
+        "d": "Toàn quyền"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Cho bản mã y = 126 khóa riêng là p = 7, q = 23, e = 5. Khi giải mã bản mã y với khóa trên theo hệ RSA ta sẽ thu được bản rõ nào sau đây?",
+    "answers": [
+      {
+        "a": "12"
+      },
+      {
+        "b": "26"
+      },
+      {
+        "c": "42"
+      },
+      {
+        "d": "62"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "\"Spam\" trong email là gì?",
+    "answers": [
+      {
+        "a": "Email rác hoặc email quảng cáo không mong muốn."
+      },
+      {
+        "b": "Email đặc biệt."
+      },
+      {
+        "c": "Email bí mật được gửi riêng cho người dùng."
+      },
+      {
+        "d": "Email trong hộp thư đến."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Lừa đảo \"Phishing\" trong email là gì?",
+    "answers": [
+      {
+        "a": "Hình thức quảng cáo qua email."
+      },
+      {
+        "b": "Hình thức hướng dẫn câu cá qua email."
+      },
+      {
+        "c": "Hình thức đánh cắp thông tin qua email."
+      },
+      {
+        "d": "Hình thức spam email."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nếu bạn nhận được các email với tiêu đề rất hấp dẫn như “Hey, see my nude video”, “Look, my sexy girl friend”. . . Bạn nên làm thế nào?",
+    "answers": [
+      {
+        "a": "Mở xem thử"
+      },
+      {
+        "b": "Xóa email và quên nó đi, bạn sẽ không nhận được gì ngoài virus đâu"
+      },
+      {
+        "c": "Bạn nên forward cho người khác và nhờ người đó mở ra trước xem có vấn đề gì không"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Một trang web yêu cầu bạn muốn trở thành thành viên, phải xác thực bằng cách gửi email hình ảnh chụp thẻ tín dụng, bạn nên làm thế nào?",
+    "answers": [
+      {
+        "a": "Kiểm chứng các thông tin trang web đưa ra, nếu đúng có thể chụp ảnh mặt trước của thẻ tín dụng, xóa một phần thông tin của thẻ và gửi email cho trang web"
+      },
+      {
+        "b": "Bạn không gửi bất kỳ thông tin nào cho những trang web như vậy."
+      },
+      {
+        "c": "Bạn có thể gửi hình ảnh thẻ tín dụng bất kỳ mình tìm thấy trên Internet"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Người dùng Facebook nhận mã xác thực 2 yếu tố như thế nào?",
+    "answers": [
+      {
+        "a": "Sử dụng hình ảnh, giọng nói"
+      },
+      {
+        "b": "Sử dụng tin nhắn văn bản (SMS), trình tạo mã, mã khôi phục"
+      },
+      {
+        "c": "Sử dụng email"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Bạn không muốn người lạ tìm thấy tài khoản thông qua email hay số điện thoại đăng ký với Facebook, bạn phải làm thế nào?",
+    "answers": [
+      {
+        "a": "Facebook luôn bảo mật thông tin cá nhân, nên không ai có thể tìm được tài khoản của bạn"
+      },
+      {
+        "b": "Email cho Facebook để yêu cầu ẩn thông tin cá nhân"
+      },
+      {
+        "c": "Vào \"Quyền riêng tư\" để kiểm soát việc người khác tìm kiếm tài khoản của bạn."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Viết từ khoá nào dưới đây lên Facebook giúp bạn kiểm tra mức độ bảo mật của tài khoản?",
+    "answers": [
+      {
+        "a": "BFF"
+      },
+      {
+        "b": "SEC"
+      },
+      {
+        "c": "XOXO"
+      },
+      {
+        "d": "Không có từ khóa nào"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Có nhiều người chia sẻ tài liệu hữu ích trên Facebook và yêu cầu để lại số điện thoại, email, số CMND... Bạn có nên làm theo để nhận tài liệu?",
+    "answers": [
+      {
+        "a": "Có, đó là những tài liệu hữu ích và vô hại"
+      },
+      {
+        "b": "Không, bạn nên tránh gửi thông tin cá nhân cho người lạ"
+      },
+      {
+        "c": "Bạn sẽ để lại email của bạn bè để nhờ nhận hộ"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Dịch vụ mạng DNS dùng để:",
+    "answers": [
+      {
+        "a": "Cấp địa chỉ cho các máy trạm"
+      },
+      {
+        "b": "Phân giải tên và địa chỉ"
+      },
+      {
+        "c": "Truyền file và dữliệu"
+      },
+      {
+        "d": "Gửi thư điệntử"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thiết bị mạng nào làm giảm bớt sự va chạm (collisions)?",
+    "answers": [
+      {
+        "a": "Hub"
+      },
+      {
+        "b": "NIC"
+      },
+      {
+        "c": "Switch"
+      },
+      {
+        "d": "Transceiver"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Địa chỉ MAC là:",
+    "answers": [
+      {
+        "a": "Địa chỉ lớp 3 được Router xử lý cho việc định tuyến"
+      },
+      {
+        "b": "Địa chỉ lớp 4 được gắn với cổng dịch vụ"
+      },
+      {
+        "c": "Có thể thay đổi bằng TCP/IP Properties củaWindows"
+      },
+      {
+        "d": "Địa chỉ lớp 2 được gắn cứng vào Card mạng"
+      }
+    ],
+    "correct": "d"
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "question": "Cặp cổng dịch vụ nào sau đây không đúng?",
+    "answers": [
+      {
+        "a": "HTTP: 80"
+      },
+      {
+        "b": "SSL: 25"
+      },
+      {
+        "c": "DNS: 53"
+      },
+      {
+        "d": "Telnet: 23"
+      },
+      {
+        "e": "POP3: 110"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Tại tầng vận chuyển có thể triển khai giao thức bảo mật?",
+    "answers": [
+      {
+        "a": "SSH"
+      },
+      {
+        "b": "S/MIME"
+      },
+      {
+        "c": "PGP"
+      },
+      {
+        "d": "IPSec"
+      },
+      {
+        "e": "SSL/TLS"
+      },
+      {
+        "f": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "e"
+  },
+  {
+    "question": "Độ lớn của khóa đo bằng đơn vị?",
+    "answers": [
+      {
+        "a": "Bit"
+      },
+      {
+        "b": "Byte"
+      },
+      {
+        "c": "KB"
+      },
+      {
+        "d": "MB"
+      },
+      {
+        "e": "Tất cả đều đúng."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Điều nào dưới đây không phải là thành phần của an ninh mạng?",
+    "answers": [
+      {
+        "a": "Authentication"
+      },
+      {
+        "b": "Auditing"
+      },
+      {
+        "c": "Strong Encryption"
+      },
+      {
+        "d": "Security Policies"
+      },
+      {
+        "e": "Tất cả đều sai."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Trường có công dụng kiểm tra sự toàn vẹn của gói tin (TCP, UDP, ICMP) là?",
+    "answers": [
+      {
+        "a": "Flags"
+      },
+      {
+        "b": "Checksum"
+      },
+      {
+        "c": "Options"
+      },
+      {
+        "d": "TTL"
+      },
+      {
+        "e": "Protocol"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Lớp nào không thể thực hiện mã hóa bởi phần cứng?",
+    "answers": [
+      {
+        "a": "Application"
+      },
+      {
+        "b": "Transport"
+      },
+      {
+        "c": "Network"
+      },
+      {
+        "d": "Data link"
+      },
+      {
+        "e": "Physical"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Hệ thống cơ sở hạ tầng khóa công khai (PKI) uy tín nhất thế giới hiện nay là?",
+    "answers": [
+      {
+        "a": "VerySign"
+      },
+      {
+        "b": "OpenCA"
+      },
+      {
+        "c": "Microsoft"
+      },
+      {
+        "d": "GeoTrust"
+      },
+      {
+        "e": "EnTrust"
+      },
+      {
+        "f": "Tổ chức khác."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Tường lửa (firewall) không có tác dụng với?",
+    "answers": [
+      {
+        "a": "Social Engineering"
+      },
+      {
+        "b": "Bảo vệ các lớp bên trong"
+      },
+      {
+        "c": "Cấm hoặc cho phép gói tin"
+      },
+      {
+        "d": "Kiểm soát luồng dữ liệu đi qua"
+      },
+      {
+        "e": "Virus"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Ứng dụng nào thường dùng để đính kèm Trojan với một tập tin khác?",
+    "answers": [
+      {
+        "a": "File EXE maker"
+      },
+      {
+        "b": "Insider"
+      },
+      {
+        "c": "FPort"
+      },
+      {
+        "d": "What is running"
+      },
+      {
+        "e": "Make on"
+      },
+      {
+        "f": "Phương án khác."
+      }
+    ],
+    "correct": "f"
+  },
+  {
+    "question": "Thiết lập quyền điều khiển từ xa của hacker đến máy nạn nhân là tác động hay gặp nhất của?",
+    "answers": [
+      {
+        "a": "Trojan"
+      },
+      {
+        "b": "Keylogger"
+      },
+      {
+        "c": "RAT"
+      },
+      {
+        "d": "Virus"
+      },
+      {
+        "e": "Worm"
+      },
+      {
+        "f": "Câu trả lời khác."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Điều gì là sai khi nói về Trojan?",
+    "answers": [
+      {
+        "a": "Thường dùng để đánh cắp thông tin"
+      },
+      {
+        "b": "Làm chậm tốc độ máy tính"
+      },
+      {
+        "c": "Cấm chỉnh sửa Registry"
+      },
+      {
+        "d": "Có khả năng tự nhân bản"
+      },
+      {
+        "e": "Kích thước nhỏ"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Trojan không thâm nhập máy tính bằng?",
+    "answers": [
+      {
+        "a": "Truy cập vật lý"
+      },
+      {
+        "b": "Chia sẻ file"
+      },
+      {
+        "c": "Duyệt web"
+      },
+      {
+        "d": "Mở file đính kèm"
+      },
+      {
+        "e": "Câu trả lời khác"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Điều gì không phải là đặc tính của chữ ký số?",
+    "answers": [
+      {
+        "a": "Secrecy"
+      },
+      {
+        "b": "Privacy"
+      },
+      {
+        "c": "Integrity"
+      },
+      {
+        "d": "Non-repudiation"
+      },
+      {
+        "e": "Authentication"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các quy tắc (rule) của firewall được xác định bởi?",
+    "answers": [
+      {
+        "a": "Tên rule"
+      },
+      {
+        "b": "Hành động"
+      },
+      {
+        "c": "Giao thức"
+      },
+      {
+        "d": "Điều kiện"
+      },
+      {
+        "e": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "e"
+  },
+  {
+    "question": "Có thể kiểm tra các port đang mở với?",
+    "answers": [
+      {
+        "a": "MSConfig"
+      },
+      {
+        "b": "Tracert"
+      },
+      {
+        "c": "WhiteShark"
+      },
+      {
+        "d": "ipconfig"
+      },
+      {
+        "e": "Netstat"
+      }
+    ],
+    "correct": "e"
+  },
+  {
+    "question": "Điều nào dưới đây là thành phần cơ bản của X.509 (PKIX)?",
+    "answers": [
+      {
+        "a": "Version"
+      },
+      {
+        "b": "Certificate Serial Number"
+      },
+      {
+        "c": "Signature Algorithm ID"
+      },
+      {
+        "d": "Validity Period"
+      },
+      {
+        "e": "Tất cả các đáp án trên"
+      }
+    ],
+    "correct": "e"
+  },
+  {
+    "question": "Có khả năng lan truyền độc lập mà không cần lan truyền qua file là?",
+    "answers": [
+      {
+        "a": "Worm"
+      },
+      {
+        "b": "Zombie"
+      },
+      {
+        "c": "Virus"
+      },
+      {
+        "d": "Trojan"
+      },
+      {
+        "e": "Spyware"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Kỹ thuật sử dụng các gói tin giả mạo chiếm đoạt kết nối giữa máy tính nạn nhân với máy đích?",
+    "answers": [
+      {
+        "a": "TCP Hijacking"
+      },
+      {
+        "b": "Eavesdropping"
+      },
+      {
+        "c": "SYN Flooding"
+      },
+      {
+        "d": "Message replays"
+      },
+      {
+        "e": "Đáp án khác."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "SSH dùng cổng nào?",
+    "answers": [
+      {
+        "a": "25"
+      },
+      {
+        "b": "23"
+      },
+      {
+        "c": "22"
+      },
+      {
+        "d": "21e"
+      },
+      {
+        "e": "20"
+      },
+      {
+        "f": "Đáp án khác."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Kỹ thuật nhằm tăng tốc độ thực thi và giảm kích thước chương trình virus được gọi là?",
+    "answers": [
+      {
+        "a": "Biến hình"
+      },
+      {
+        "b": "Chống bẫy"
+      },
+      {
+        "c": "Tối ưu"
+      },
+      {
+        "d": "Ngụy trang"
+      },
+      {
+        "e": "Mã hóa"
+      },
+      {
+        "f": "Đáp án khác."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Chương trình nào không phải là chương trình chống virus?",
+    "answers": [
+      {
+        "a": "AVG"
+      },
+      {
+        "b": "BitDefender"
+      },
+      {
+        "c": "DA Pro Tool"
+      },
+      {
+        "d": "Kaspersky"
+      },
+      {
+        "e": "McAfee"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hình thức nào sau đây không phải là hình thức tấn công DoS?",
+    "answers": [
+      {
+        "a": "Teardrop"
+      },
+      {
+        "b": "SYN attack"
+      },
+      {
+        "c": "Smurf"
+      },
+      {
+        "d": "ARP spoofing"
+      },
+      {
+        "e": "Ping of death"
+      },
+      {
+        "f": "Tất cả đều sai."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Việc sử dụng đội quân zombie tấn công trên mạng là hình thức?",
+    "answers": [
+      {
+        "a": "DDoS"
+      },
+      {
+        "b": "Repudiation"
+      },
+      {
+        "c": "Instruction"
+      },
+      {
+        "d": "Buffer Overlow"
+      },
+      {
+        "e": "DoS"
+      },
+      {
+        "f": "RDoS"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Giao thức SSL/TLS được phát triển bởi?",
+    "answers": [
+      {
+        "a": "Netscape"
+      },
+      {
+        "b": "Microsoft"
+      },
+      {
+        "c": "Norton Corp."
+      },
+      {
+        "d": "AVG"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Loại virus có thể thay đổi đặc điểm của nó sau mỗi lần nhiễm là?",
+    "answers": [
+      {
+        "a": "Polymorphic"
+      },
+      {
+        "b": "Stealth"
+      },
+      {
+        "c": "Camoulage"
+      },
+      {
+        "d": "Cavity"
+      },
+      {
+        "e": "Tunneling"
+      }
+    ],
+    "correct": "a"
+  }
+]

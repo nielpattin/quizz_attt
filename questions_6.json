@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Cách nào sau đây là tốt nhất để chống lại điểm yếu bảo mật trong phần mềm hệ điều hành?",
+    "answers": [
+      {
+        "a": "Cài đặt bản service pack mới nhất"
+      },
+      {
+        "b": "Cài đặt lại HĐH thông dụng"
+      },
+      {
+        "c": "Sao lưu hệ thống thường xuyên"
+      },
+      {
+        "d": "Shutdown hệ thống khi không sử dụng"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Độ an toàn của hệ mã hóa ElGamal dựa trên bài toán nào?",
+    "answers": [
+      {
+        "a": "Logarit rời rạc"
+      },
+      {
+        "b": "Xếp ba lô"
+      },
+      {
+        "c": "Phân tích thành tích các số nguyên tố"
+      },
+      {
+        "d": "Định lý số dư trung hoa"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Phương pháp thông tin truy cập từ xa nào được xem như kết nối điển hình đến Internet mọi lúc,nó làm gia tăng rủi ro bảo mật do luôn mở đối với mọi cuộc tấn công?",
+    "answers": [
+      {
+        "a": "Cable modem & DSL"
+      },
+      {
+        "b": "Dial-up"
+      },
+      {
+        "c": "Wireless"
+      },
+      {
+        "d": "SSH"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Tính năng bảo mật nào có thể được sử dụng đối với một máy trạm quay số truy cập từ xa sử dụng một username và mật khẩu?",
+    "answers": [
+      {
+        "a": "Mã hóa số điện thoại"
+      },
+      {
+        "b": "Kiểm tra chuỗi modem"
+      },
+      {
+        "c": "Hiển thị gọi"
+      },
+      {
+        "d": "Gọi lại ( Call back)"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Tiện ích nào sau đây là một phương thức bảo mật truy cập từ xa tốt hơn telnet?",
+    "answers": [
+      {
+        "a": "SSL"
+      },
+      {
+        "b": "SSH"
+      },
+      {
+        "c": "IPSec"
+      },
+      {
+        "d": "VPN"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Các giao thức đường hầm nào sau đây chỉ làm việc trên các mạng IP?",
+    "answers": [
+      {
+        "a": "IPX"
+      },
+      {
+        "b": "SSH"
+      },
+      {
+        "c": "L2TP"
+      },
+      {
+        "d": "PPTP"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Mục đích của một máy chủ RADIUS là?",
+    "answers": [
+      {
+        "a": "Packet Sniffing"
+      },
+      {
+        "b": "Mã hóa"
+      },
+      {
+        "c": "Xác thực"
+      },
+      {
+        "d": "Thỏa thuận tốc độ kết nối."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Các giao thức xác thực nào sau đây là được sử dụng trong các mạng không dây?",
+    "answers": [
+      {
+        "a": "802.1X"
+      },
+      {
+        "b": "802.11b"
+      },
+      {
+        "c": "802.11a"
+      },
+      {
+        "d": "803.1"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các giao thức nào sau đây làm việc trên lớp IP để bảo vệ thông tin IP trên mạng?",
+    "answers": [
+      {
+        "a": "IPX"
+      },
+      {
+        "b": "IPSec"
+      },
+      {
+        "c": "SSH"
+      },
+      {
+        "d": "TACACS+"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "LAC (L2TP Access Control) và LNS (L2TP Network Server)) là các thành phần của giao thức đường hầm nào ?",
+    "answers": [
+      {
+        "a": "PPP"
+      },
+      {
+        "b": "IPSec"
+      },
+      {
+        "c": "PPTP"
+      },
+      {
+        "d": "L2TP"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Giao thức được sử dụng rộng rãi nhất để truy cập kiểu quay số đến một máy chủ từ xa là?",
+    "answers": [
+      {
+        "a": "SLIP"
+      },
+      {
+        "b": "PPP"
+      },
+      {
+        "c": "a và b đều đúng."
+      },
+      {
+        "d": "a và b đều sai."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Kỹ thuật nào được sử dụng để bảo đảm thông tin liên lạc qua một mạng không được bảo mật?",
+    "answers": [
+      {
+        "a": "SLIP"
+      },
+      {
+        "b": "PPP"
+      },
+      {
+        "c": "Telnet"
+      },
+      {
+        "d": "VPN"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Các chuẩn giao thức mạng không dây nào sau đây phân phối nội dung Wireless Markup Language (WML) đến các ứng dụng Web trên các thiết bị cầm tay (PDA)?",
+    "answers": [
+      {
+        "a": "WAP"
+      },
+      {
+        "b": "WEP"
+      },
+      {
+        "c": "SSL"
+      },
+      {
+        "d": "802.11g"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các chuẩn giao thức mạng không dây IEEE nào sau đây là phổ biến nhất ?",
+    "answers": [
+      {
+        "a": "802.11a"
+      },
+      {
+        "b": "802.11b"
+      },
+      {
+        "c": "802.11g"
+      },
+      {
+        "d": "Cả 3 đêu đúng"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Độ dài mã hóa WEP nào nên được thiết lập trên một mạng 802.11b ?",
+    "answers": [
+      {
+        "a": "16 bit"
+      },
+      {
+        "b": "40 bit"
+      },
+      {
+        "c": "28 bit"
+      },
+      {
+        "d": "128 bit"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Cơ cấu bảo mật mạng không dây nào sau đây là ít an toàn nhất ?",
+    "answers": [
+      {
+        "a": "VPN"
+      },
+      {
+        "b": "Mã hóa WEP 40 bit"
+      },
+      {
+        "c": "Mã hóa WEP 128 bit"
+      },
+      {
+        "d": "Bảo mật định danh mạng"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Bộ lọc địa chỉ MAC được định nghĩa như",
+    "answers": [
+      {
+        "a": "Tường lửa cá nhân"
+      },
+      {
+        "b": "Chặn truy cập từ một địa chỉ MAC nhất định."
+      },
+      {
+        "c": "Được phép truy cập đến một địa chỉ MAC nhất định."
+      },
+      {
+        "d": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Phương pháp điều khiển truy cập có hiệu quả và an toàn nhất đối với mạng không dây là",
+    "answers": [
+      {
+        "a": "Mã hóa WEP 40 bit"
+      },
+      {
+        "b": "VPN"
+      },
+      {
+        "c": "Nhận dạng bảo mật mạng"
+      },
+      {
+        "d": "Mã hóa WEP 128 bit"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Cơ cấu bảo mật nào sau đây được sử dụng với chuẩn không dây WAP?",
+    "answers": [
+      {
+        "a": "WTLS"
+      },
+      {
+        "b": "SSL"
+      },
+      {
+        "c": "HTTPS"
+      },
+      {
+        "d": "Mã hóa WEP"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Thiết bị nào sử dụng bộ lọc gói và các quy tắc truy cập để kiểm soát truy cập đến các mạng riêng từ các mạng công cộng , như là Internet?",
+    "answers": [
+      {
+        "a": "Access Point"
+      },
+      {
+        "b": "Router"
+      },
+      {
+        "c": "Firewall"
+      },
+      {
+        "d": "Switch"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Ứng dụng mạng nào có thể được sử dụng để phân tích và kiểm tra lưu lượng mạng ?",
+    "answers": [
+      {
+        "a": "IDS"
+      },
+      {
+        "b": "FTP"
+      },
+      {
+        "c": "Router"
+      },
+      {
+        "d": "Sniffer"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Cần phải làm gì để ngăn chặn một ai đó tình cờ ghi đè lên dữ liệu trên một đĩa từ?",
+    "answers": [
+      {
+        "a": "Xóa nó bằng nam châm"
+      },
+      {
+        "b": "Dán nhãn cẩn thận"
+      },
+      {
+        "c": "Thiết lập tab \"Write-protect \""
+      },
+      {
+        "d": "Lưu giữ nó tại chỗ"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Yếu tố nào cần được sử dụng kết hợp với một thẻ thông minh để xác thực?",
+    "answers": [
+      {
+        "a": "PIN"
+      },
+      {
+        "b": "Quét võng mạc"
+      },
+      {
+        "c": "Mã hóa khóa"
+      },
+      {
+        "d": "Thẻ nhớ"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Vùng nào của cấu trúc liên kết bảo mật mạng chứa các máy chủ Intenet, như là web, FTP, và các máy chủ email?",
+    "answers": [
+      {
+        "a": "DMZ"
+      },
+      {
+        "b": "VLAN"
+      },
+      {
+        "c": "VPN"
+      },
+      {
+        "d": "Intranet"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Dịch vụ mạng nào cho phép các địa chỉ mạng bên trong được \"che dấu\"( hidden) khỏi các mạng bên ngoài và cho phép vài host của mạng bên trong sử dụng các địa chỉ trùng với mạng bên ngoài?",
+    "answers": [
+      {
+        "a": "NAT"
+      },
+      {
+        "b": "VLAN"
+      },
+      {
+        "c": "VPN"
+      },
+      {
+        "d": "IP Spoofing"
+      }
+    ],
+    "correct": "a"
+  }
+]

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="/_vercel/insights/script.js"></script>
+    <title>Flashcards</title>
+    <meta name="description" content="Flashcards with Auto and Manual Flip Modes." />
+    <style>
+        /* CSS Styles (Adjusted for button visibility and positioning) */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            /* Align content to top */
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px 0;
+            perspective: 1000px;
+        }
+
+        .controls-container {
+            background-color: #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            /* Reduced margin slightly */
+            text-align: center;
+            width: 90%;
+            max-width: 700px;
+            box-sizing: border-box;
+        }
+
+        .control-section {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px 15px;
+        }
+
+        .control-section:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .control-section>label:first-child {
+            font-weight: bold;
+            flex-basis: 100%;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        @media (min-width: 480px) {
+            .control-section>label:first-child {
+                flex-basis: auto;
+                margin-bottom: 0;
+                margin-right: 10px;
+            }
+        }
+
+        #flashcardSelectorLabel {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        #flashcardSelector {
+            padding: 8px 12px;
+            font-size: 0.95em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            min-width: 150px;
+            /* Adjusted min-width */
+            cursor: pointer;
+            flex-grow: 1;
+            max-width: 300px;
+            /* Added max-width */
+        }
+
+        #statusMessage {
+            margin-top: 8px;
+            font-style: italic;
+            font-size: 0.9em;
+            min-height: 1.1em;
+            flex-basis: 100%;
+            text-align: center;
+        }
+
+        #statusMessage.error {
+            color: red;
+            font-weight: bold;
+        }        #statusMessage.success {
+            color: green;
+        }
+
+        .instructions {
+            font-style: italic;
+            font-size: 0.95em;
+            margin: 5px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* --- Next Card Button Styles --- */
+        #nextCardButton {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 15px;
+            /* Space between button and card */
+            display: none;
+            /* Hidden by default */
+            transition: background-color 0.2s ease;
+        }
+
+        #nextCardButton:hover {
+            background-color: #0056b3;
+        }
+
+        #nextCardButton.visible {
+            display: inline-block;
+            /* Show when manual mode is active */
+        }
+
+        /* ----------------------------- */
+
+        .flashcard-container {
+            width: 90%;
+            max-width: 700px;
+            min-height: 200px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+            display: none;
+            padding: 32px 24px 24px 24px;
+            box-sizing: border-box;
+        }
+        .flashcard-container.visible {
+            display: block;
+        }
+        
+        .card-content {
+            max-height: 90%;
+            width: 100%;
+            font-size: 1.1em;
+        }
+
+        .card-image {
+            display: none;
+        }
+        
+        /* Answer options styling */
+        .answer-options {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 90%;
+        }
+
+        .answer-option {
+            padding: 10px 15px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: #333;
+            cursor: pointer;
+            text-align: left;
+            border: 2px solid #ddd;
+            transition: all 0.2s ease;
+        }
+
+        .answer-option:hover {
+            background-color: #e9f2ff;
+            border-color: #4a90e2;
+        }
+        
+        .answer-option.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+        }
+        
+        .answer-option.incorrect {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+        }
+
+        #externalImageContainer {
+            width: 90%;
+            max-width: 700px;
+            margin-top: 10px;
+            text-align: center;
+            display: none;
+        }
+
+        #externalImage {
+            max-width: 90%;
+            max-height: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="controls-container">
+        <!-- Flashcard Set Selector -->
+        <div class="control-section flashcard-selector-section">
+            <label for="flashcardSelector" id="flashcardSelectorLabel">Chọn Bộ:</label>
+            <select id="flashcardSelector">
+                <option value="">-- Chọn một bộ --</option>
+                <!-- Options will be added by JavaScript -->
+            </select>
+            <div id="statusMessage">Vui lòng chọn một bộ flashcard từ danh sách.</div>
+        </div>
+        <!-- Controls Section (Simplified) -->
+        <div class="control-section">
+            <div id="instructions" class="instructions">
+                Chọn câu trả lời đúng, sau đó bấm "Thẻ tiếp theo" để tiếp tục.
+            </div>
+        </div>
+    </div>
+
+    <button id="nextCardButton">Thẻ tiếp theo</button>
+    <!-- Simple Question/Answer Container -->
+    <div id="flashcardContainer" class="flashcard-container">
+        <div class="card-content">
+            <div id="card-question-text"></div>
+            <div id="card-answers" class="answer-options"></div>
+        </div>
+    </div>
+    <div id="externalImageContainer">
+        <img id="externalImage" src="" alt="Hình ảnh câu hỏi">
+    </div>
+    <script>
+        // --- DOM Elements ---
+        const flashcardSelector = document.getElementById('flashcardSelector');
+        const statusMessageElement = document.getElementById('statusMessage');
+        const flashcardContainer = document.getElementById('flashcardContainer');
+        const questionTextElement = document.getElementById('card-question-text');
+        const answersContainer = document.getElementById('card-answers');
+        const nextCardButton = document.getElementById('nextCardButton');
+        const externalImageContainer = document.getElementById('externalImageContainer');
+        const externalImageElement = document.getElementById('externalImage');
+
+        // --- State Variables ---
+        let currentIndex = 0;
+        let flashcardsData = [];
+        let currentImageSubfolder = '';
+        let answerSelected = false;
+        let correctAnswerKey = '';
+
+        // --- Constants ---
+        const knownFlashcardFiles = [
+            "questions_1.json",
+            "questions_2.json",
+            "questions_3.json",
+            "questions_4.json",
+            "questions_5.json",
+            "questions_6.json",
+            "questions_7.json",
+            "questions_8.json",
+            "questions_9.json",
+            "questions_10.json",
+        ];
+
+        function showStatus(message, type = 'info') {
+            statusMessageElement.textContent = message;
+            statusMessageElement.className = type;
+        }
+
+        function updateNextButtonVisibility() {
+            if (answerSelected && flashcardsData.length > 0) {
+                nextCardButton.classList.add('visible');
+            } else {
+                nextCardButton.classList.remove('visible');
+            }
+        }
+
+        function resetFlashcardView() {
+            flashcardContainer.classList.remove('visible');
+            externalImageContainer.style.display = 'none';
+            externalImageElement.src = '';
+            questionTextElement.textContent = '';
+            answersContainer.innerHTML = '';
+            answerSelected = false;
+            correctAnswerKey = '';
+            currentIndex = 0;
+            flashcardsData = [];
+            currentImageSubfolder = '';
+            updateNextButtonVisibility();
+        }
+
+        function advanceToNextCard() {
+            if (flashcardsData.length === 0) return;
+            currentIndex = (currentIndex + 1) % flashcardsData.length;
+            updateCardContent();
+        }
+
+        function updateCardContent() {
+            if (flashcardsData.length === 0) return;
+            currentIndex = currentIndex % flashcardsData.length;
+            const currentCard = flashcardsData[currentIndex];
+            if (!currentCard) {
+                console.error("Invalid card data at index:", currentIndex);
+                showStatus("Lỗi dữ liệu thẻ.", "error");
+                return;
+            }
+            answerSelected = false;
+            correctAnswerKey = currentCard.correct || '';
+            const questionNumber = currentIndex + 1;
+            questionTextElement.textContent = `Câu ${questionNumber}: ${currentCard.question || ''}`;
+            answersContainer.innerHTML = '';
+            if (currentCard.answers && Array.isArray(currentCard.answers)) {
+                currentCard.answers.forEach(answerObj => {
+                    const key = Object.keys(answerObj)[0];
+                    const answerText = answerObj[key];
+                    const answerDiv = document.createElement('div');
+                    answerDiv.className = 'answer-option';
+                    answerDiv.dataset.key = key;
+                    answerDiv.textContent = `${key.toUpperCase()}. ${answerText}`;
+                    answerDiv.addEventListener('click', handleAnswerClick);
+                    answersContainer.appendChild(answerDiv);
+                });
+            }
+            externalImageContainer.style.display = 'none';
+            externalImageElement.src = '';
+            updateNextButtonVisibility();
+        }
+
+        function handleAnswerClick(event) {
+            if (answerSelected) return;
+            const clickedOption = event.currentTarget;
+            const selectedKey = clickedOption.dataset.key;
+            answerSelected = true;
+            const isCorrect = selectedKey === correctAnswerKey;
+            const allOptions = answersContainer.querySelectorAll('.answer-option');
+            allOptions.forEach(option => {
+                if (option.dataset.key === selectedKey) {
+                    option.classList.add(isCorrect ? 'correct' : 'incorrect');
+                } else if (option.dataset.key === correctAnswerKey && !isCorrect) {
+                    option.classList.add('correct');
+                }
+            });
+            updateNextButtonVisibility();
+        }
+
+        function handleNextCardClick() {
+            if (flashcardsData.length === 0 || !answerSelected) return;
+            advanceToNextCard();
+        }
+
+        function initializeFlashcards(data, detectedSubfolder = '') {
+            resetFlashcardView();
+            if (!Array.isArray(data) || data.length === 0) {
+                showStatus("File JSON không hợp lệ hoặc không chứa thẻ nào.", "error");
+                return;
+            }
+            flashcardsData = data;
+            currentImageSubfolder = detectedSubfolder;
+            flashcardContainer.classList.add('visible');
+            updateStatusMessage();
+            updateCardContent();
+        }
+
+        function updateStatusMessage() {
+            if (flashcardsData.length === 0) {
+                showStatus("Vui lòng chọn một bộ flashcard.", "info");
+                return;
+            }
+            let statusText = `Đã tải ${flashcardsData.length} thẻ. Chọn câu trả lời đúng và bấm \"Thẻ tiếp theo\" để tiếp tục.`;
+            // if (currentImageSubfolder) {
+            //     statusText += ` Ảnh từ 'images/${currentImageSubfolder}/'.`;
+            // } else {
+            //     statusText += ` Ảnh từ 'images/'.`;
+            // }
+            showStatus(statusText, "success");
+        }
+
+        async function loadFlashcardSet(filename) {
+            if (!filename) {
+                resetFlashcardView();
+                showStatus("Vui lòng chọn một bộ flashcard.", "info");
+                return;
+            }
+            showStatus(`Đang tải ${filename}...`, 'info');
+            resetFlashcardView();
+            let detectedSubfolder = '';
+            const match = filename.match(/questions_(\d+)_(\d+)\.json$/i);
+            if (match && match[1]) detectedSubfolder = match[1] + '_' + match[2];
+            try {
+                const response = await fetch(filename);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                const jsonData = await response.json();
+                initializeFlashcards(jsonData, detectedSubfolder);
+            } catch (error) {
+                console.error('Error loading flashcard set:', error);
+                showStatus(`Lỗi tải ${filename}: ${error.message}`, 'error');
+                resetFlashcardView();
+            }
+        }
+
+        function populateDropdown() {
+            while (flashcardSelector.options.length > 1) flashcardSelector.remove(1);
+            knownFlashcardFiles.forEach(filename => {
+                const option = document.createElement('option');
+                option.value = filename;
+                let label = filename.replace('.json', '').replace(/_/g, ' ');
+                label = label.charAt(0).toUpperCase() + label.slice(1);
+                option.textContent = label;
+                flashcardSelector.appendChild(option);
+            });
+        }
+
+        // --- Event Listeners ---
+        flashcardSelector.addEventListener('change', (event) => {
+            loadFlashcardSet(event.target.value);
+        });
+        nextCardButton.addEventListener('click', handleNextCardClick);
+
+        document.addEventListener('DOMContentLoaded', () => {
+            populateDropdown();
+            updateNextButtonVisibility();
+            showStatus("Vui lòng chọn một bộ flashcard từ danh sách.", "info");
+        });
+    </script>
+</body>
+
+</html>

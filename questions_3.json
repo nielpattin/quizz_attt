@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Giao thức FTP sử dụng cổng nào?",
+    "answers": [
+      {
+        "a": "21"
+      },
+      {
+        "b": "25"
+      },
+      {
+        "c": "23"
+      },
+      {
+        "d": "80"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Giao thức https sử dụng cổng nào?",
+    "answers": [
+      {
+        "a": "443"
+      },
+      {
+        "b": "53"
+      },
+      {
+        "c": "21"
+      },
+      {
+        "d": "80"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Hệ mã hóa AES sử dụng bao nhiêu bit đầu vào để mã hóa?",
+    "answers": [
+      {
+        "a": "32"
+      },
+      {
+        "b": "56"
+      },
+      {
+        "c": "64"
+      },
+      {
+        "d": "128"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Đầu ra của hàm băm MD5 là bao nhiêu bit?",
+    "answers": [
+      {
+        "a": "64"
+      },
+      {
+        "b": "128"
+      },
+      {
+        "c": "256"
+      },
+      {
+        "d": "512"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Đầu ra của hàm băm SHA-1 là bao nhiêu bit?",
+    "answers": [
+      {
+        "a": "128"
+      },
+      {
+        "b": "160"
+      },
+      {
+        "c": "224"
+      },
+      {
+        "d": "256"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện:",
+    "answers": [
+      {
+        "a": "Trojan Server được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Client."
+      },
+      {
+        "b": "Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning."
+      },
+      {
+        "c": "Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning."
+      },
+      {
+        "d": "Trojan Client được cài trên máy nạn nhân- Hacker điều khiển bằng Trojan Server"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Kỹ thuật đánh cắp tài khoản bằng Keylog thường được các newbie Hacker ưa thích sử dụng là do",
+    "answers": [
+      {
+        "a": "Keylog rất mạnh trong việc nhận dạng user/password trong các gói tin gửi ra ngoài"
+      },
+      {
+        "b": "Keylog rất mạnh trong việc dò tìm mật khẩu đã bị mã hóa (encrypt) hoặc bị băm (Hash)"
+      },
+      {
+        "c": "Do đa phần người dùng không quan tâm đến vấn đề bảo mật và Anti Virus"
+      },
+      {
+        "d": "Khó bị các chương trình Anti Virus phát hiện."
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "System Hacking là một phương thức tấn công kiểu:",
+    "answers": [
+      {
+        "a": "Điều khiển máy tính nạn nhân từ xa."
+      },
+      {
+        "b": "Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng."
+      },
+      {
+        "c": "Tấn công làm tê liệt hệ thống mạng của nạn nhân."
+      },
+      {
+        "d": "Đánh cắp dữ liệu của nạn nhân truyền trên mạng."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Sniffing là một phương thức tấn công kiểu:",
+    "answers": [
+      {
+        "a": "Điều khiển máy tính nạn nhân từ xa."
+      },
+      {
+        "b": "Đánh cắp dữ liệu của nạn nhân truyền trên mạng."
+      },
+      {
+        "c": "Can thiệp trực tiếp vào máy nạn nhân để lấy các thông tin quan trọng."
+      },
+      {
+        "d": "Tấn công làm tê liệt hệ thống mạng của nạn nhân."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Khóa tại mỗi vòng của hệ mã hóa DES sử dụng là bao nhiêu bit?",
+    "answers": [
+      {
+        "a": "16"
+      },
+      {
+        "b": "32"
+      },
+      {
+        "c": "56"
+      },
+      {
+        "d": "64"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "RFID- Radio Frequency Identification là kỹ thuật nhận dạng nào?",
+    "answers": [
+      {
+        "a": "Nhận dạng sinh trắc học."
+      },
+      {
+        "b": "Nhận dạng qua tín hiệu RF."
+      },
+      {
+        "c": "Nhận dạng hình ảnh."
+      },
+      {
+        "d": "Không phải các dạng nói trên."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Phương thức thông dụng để chia sẻ một kết nối internet cho nhiều máy khác trong mạng là:",
+    "answers": [
+      {
+        "a": "NAT (Network Address Translation)"
+      },
+      {
+        "b": "ROUTE (Routing Service)"
+      },
+      {
+        "c": "RAS (Remote Access Service)"
+      },
+      {
+        "d": "ICS (Internet Connection Sharring)"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Một gói tin có hỗ trợ IPSec được mã hóa cả Header và Content theo phương thức nào?",
+    "answers": [
+      {
+        "a": "ESP"
+      },
+      {
+        "b": "AH"
+      },
+      {
+        "c": "SSL"
+      },
+      {
+        "d": "EFS"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Khi xây dựng kết nối VPN kiểu Remote-Access, người dùng A không thể dial vào VPN Server mặc dù đã thiết lập đúng các thông số cho VPN Connection và khai báo chính xác Username và password. Các người dùng khác vẫn kết nối VPN từ nhà vào văn phòng công ty được bình thường. Nguyên nhân lỗi có thể là:",
+    "answers": [
+      {
+        "a": "Tài khoản của người dùng A không được cấp phép đăng nhập từ xa."
+      },
+      {
+        "b": "IP address trên máy người dùng A không cùng Net.ID với IP address văn phòng công ty."
+      },
+      {
+        "c": "Hệ điều hành máy người dùng A không tương thích với hệ điều hành máy VPN Server."
+      },
+      {
+        "d": "Hệ Điều hành trên máy người dùng A không hỗ trợ kết nối VPN."
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Áp dụng IPSec vào hệ thống VPN, phương thức chứng thực được hỗ trợ sẵn trong dịch vụ RRAS của Windows là:",
+    "answers": [
+      {
+        "a": "Encapsulating Security Payload (ESP)"
+      },
+      {
+        "b": "Internet Key Exchange (IKE)"
+      },
+      {
+        "c": "Certified Authentication (CA)"
+      },
+      {
+        "d": "Kerberos"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Cache là một vùng đĩa cứng dùng lưu trữ các dữ liệu đi ngang qua ISA Server. Sau khi cài đặt ISA Server 2006 sẽ",
+    "answers": [
+      {
+        "a": "Tự động cache tất cả dữ liệu đi ngang qua nó ngay sau khi cài đặt ISA"
+      },
+      {
+        "b": "Chỉ tự động cache sau khi người dùng định nghĩa và Enable Cache trên ISA Server"
+      },
+      {
+        "c": "Chỉ tự động cache sau khi người dùng Enable Cache trên ISA Server"
+      },
+      {
+        "d": "Chỉ tự động cache sau khi người dùng định nghĩa Cache trên ISA Server (Define cache)"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Sâu máy tính và các virus khác phát tán như thế nào?",
+    "answers": [
+      {
+        "a": "Tự động lan và lây nhiễm giữa các hệ thống."
+      },
+      {
+        "b": "Phát tán qua các phần đính kèm với thư điện tử"
+      },
+      {
+        "c": "Gần như không thể phát tán trừ khi bạn mở hoặc chạy một chương trình bị nhiễm."
+      },
+      {
+        "d": "Phát tán qua nội dung thư điện tử"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các bước tiến hành nhằm giảm sự rủi ro vì virus:",
+    "answers": [
+      {
+        "a": "Bằng phần mềm diệt virus"
+      },
+      {
+        "b": "Luôn cập nhật chương trình diệt virus."
+      },
+      {
+        "c": "Chọn phần mềm diệt virus thích hợp"
+      },
+      {
+        "d": "Tất cả các giải pháp trên"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Sau khi dùng Sniffing software để bắt thông tin phân tích gói thông tin gửi đi từ host, có dạng: Protocol :TCP; Destination Port: 80; Source IP 192.168.3.8; Destination IP 203. 162.4.132; SYN=1, ACK=0. Cho biết host trên đang làm gì?",
+    "answers": [
+      {
+        "a": "Máy 203. 162.4.132 đang yêu cầu kết nối với FTP server tại 192.168.3.8"
+      },
+      {
+        "b": "Máy 192.168.3.8 đang yêu cầu kết nối với Mail server tại 203. 162.4.132"
+      },
+      {
+        "c": "Máy 192.168.3.8 đang yêu cầu kết nối với server tại 203. 162.4.132"
+      },
+      {
+        "d": "Máy 192.168.3.8 đang yêu cầu kết nối với Web server tại 203. 162.4.132"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Một trường đại học có nhu cầu triển khai hệ thống Firewall bằng ISA Server 2004/2006. Hiện có một hệ thống mạng Active Directory với một DC và một File Server cùng với 50 máy Client. Ngoài ra, còn có 2 Web Server và 1 Mail Server (dùng Public IP) phục vụ người dùng internet. Là người quản trị mạng, bạn chọn giải pháp nào?",
+    "answers": [
+      {
+        "a": "Xây dựng hệ thống Firewall kiểu Back-End Firewall, đưa máy Web Server, Mail Server, DC, FS vào DMZ Network"
+      },
+      {
+        "b": "Xây dựng hệ thống Firewall kiểu Back-End Firewall, đưa máy Web Server và Mail Server vào DMZ Network; máy DC, FS và các Client vào Internal network"
+      },
+      {
+        "c": "Xây dựng hệ thống Firewall kiểu Three-Leg (Three-Homed), đưa máy Client vào DMZ Network. Tất cả các Server và DC vào Internal Network"
+      },
+      {
+        "d": "Xây dựng hệ thống Firewall kiểu Three-Leg (Three-Homed), đưa máy DC và FS vào DMZ Network."
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Denial of Service (DoS) là:",
+    "answers": [
+      {
+        "a": "Một dịch vụ mạng."
+      },
+      {
+        "b": "Một kiểu kết nối mạng."
+      },
+      {
+        "c": "Phương thức liên kết mạng."
+      },
+      {
+        "d": "Phương thức tấn công từ chối dịch vụ."
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Bạn cần cấm việc dò quét từ mạng khác theo giao thức ICMP. Bạn phải set lệnh deny ICMP với tham số nào?",
+    "answers": [
+      {
+        "a": "Type = 3, Code = 1"
+      },
+      {
+        "b": "Type = 3, Code = 6"
+      },
+      {
+        "c": "Type = 3, Code = 7"
+      },
+      {
+        "d": "Type = 3, Code = 0"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Một công ty có máy chủ quản lý Website cung cấp thông tin trên Internet tại địa chỉ 203.162.4.115. Hãy cài đặt tập luật cho Server này:",
+    "answers": [
+      {
+        "a": "203.162.4.115-80-Any-80-Allow"
+      },
+      {
+        "b": "203.162.4.115-Any-203.162.4.115-80-Any"
+      },
+      {
+        "c": "Any-Any-203.162.4.115- 80-Allow"
+      },
+      {
+        "d": "Any-Any-203.162.4.115- 80-Deny"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Một công ty có có Mail Server tại địa chỉ 203.162.4.116. Hãy cài đặt tập luật cho Server này:",
+    "answers": [
+      {
+        "a": "203.162.4.115-80-Any-80-Allow"
+      },
+      {
+        "b": "Any-Any-203.162.4.115- 80-Allow"
+      },
+      {
+        "c": "Any-Any-203.162.4.115- 80-Deny"
+      },
+      {
+        "d": "203.162.4.115-Any-203.162.4.115-80-Any"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Phương pháp chứng thực được sử dụng phổ biến hiện nay:",
+    "answers": [
+      {
+        "a": "Password"
+      },
+      {
+        "b": "e-Token"
+      },
+      {
+        "c": "Fingerprint"
+      },
+      {
+        "d": "Tất cả các phương pháp trên"
+      }
+    ],
+    "correct": "d"
+  }
+]

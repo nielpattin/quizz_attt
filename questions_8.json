@@ -1,0 +1,449 @@
+[
+  {
+    "question": "Khi một user báo cáo rằng hệ thống của anh ta đã phát hiện một virus mới. Cần làm điều gì đầu tiên sau đây để xử lý tình huống này ?",
+    "answers": [
+      {
+        "a": "Kiểm tra lại tập tin diệt virus hiện hành"
+      },
+      {
+        "b": "Định dạng lại đĩa cứng"
+      },
+      {
+        "c": "Cài đặt lại hệ điều hành"
+      },
+      {
+        "d": "Disable tài khoản email của anh ta"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Facebook cho phép bạn thiết lập lựa chọn 3-5 người bạn tin cậy (trusted contacts) để làm gì?",
+    "answers": [
+      {
+        "a": "Để tạo nhóm bí mật"
+      },
+      {
+        "b": "Để trợ giúp nếu bạn bị khóa tài khoản"
+      },
+      {
+        "c": "Để lưu trữ mật khẩu giúp bạn"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Yếu tố nào được coi là hữu ích nhất trong kiểm soát truy cập khi bị tấn công từ bên ngoài?",
+    "answers": [
+      {
+        "a": "Đăng nhập hệ thống ( System logs)"
+      },
+      {
+        "b": "Phần mềm antivirus"
+      },
+      {
+        "c": "Kerberos"
+      },
+      {
+        "d": "Sinh trắc học"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Giả sử muốn cài đặt một máy chủ cung cấp các dịch vụ Web đến các máy trạm thông qua Internet. Phương pháp nào để chúng ta không bị lộ mạng bên trong?",
+    "answers": [
+      {
+        "a": "Cài đặt máy chủ trong mạng Intranet"
+      },
+      {
+        "b": "Cài đặt máy chủ trong một DMZ"
+      },
+      {
+        "c": "Cài đặt máy chủ trong một VLAN"
+      },
+      {
+        "d": "Cài đặt máy chủ trong mạng Extranet"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Loại tấn công nào làm việc truy cập của user đến các tài nguyên mạng bị từ chối?",
+    "answers": [
+      {
+        "a": "DoS"
+      },
+      {
+        "b": "Sâu"
+      },
+      {
+        "c": "Logic Bomb"
+      },
+      {
+        "d": "Social engineering"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Một máy chủ trên mạng có một chương trình đang chạy vượt quá thẩm quyền. Loại tấn công nào đã xảy ra?",
+    "answers": [
+      {
+        "a": "DoS"
+      },
+      {
+        "b": "DDoS"
+      },
+      {
+        "c": "Back Door"
+      },
+      {
+        "d": "Social engineering"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Nỗ lực tấn công để can thiệp vào một phiên liên lạc bằng việc thêm vào một máy tính giữa hai hệ thống được gọi là",
+    "answers": [
+      {
+        "a": "Man in the middle"
+      },
+      {
+        "b": "Relay Attack"
+      },
+      {
+        "c": "Back Door"
+      },
+      {
+        "d": "TCP/IP hijacking"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Một máy chủ trên mạng không chấp nhận các kết nối TCP nữa. Máy chủ thông báo rằng nó đã vượt quá giới hạn của phiên làm việc. Loại tấn công nào có thể đang xảy ra?",
+    "answers": [
+      {
+        "a": "Tấn công TCP ACK (SYNACK)"
+      },
+      {
+        "b": "Tấn công smurf"
+      },
+      {
+        "c": "Tấn công virus"
+      },
+      {
+        "d": "TCP/IP hijacking"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Tổ đặc trách thông báo rằng họ đã nhận một cuộc gọi khẩn cấp từ phó chủ tịch đêm qua yêu cầu logon vào ID và mật khẩu của ông ta. Đây là loại tấn công gì?",
+    "answers": [
+      {
+        "a": "Giả mạo"
+      },
+      {
+        "b": "Tấn công chuyển tiếp"
+      },
+      {
+        "c": "Social engineering"
+      },
+      {
+        "d": "Trojan"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Một virus được đính kèm chính nó vào boot sector của đĩa cứng và thông báo thông tin sai về kích thước các tập tin được gọi là gì?",
+    "answers": [
+      {
+        "a": "Virus Trojan"
+      },
+      {
+        "b": "Stealth virus"
+      },
+      {
+        "c": "Worm"
+      },
+      {
+        "d": "Polymorphic virus"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Một chương trình nằm trong một chương trình khác được cài vào hệ thống gọi là",
+    "answers": [
+      {
+        "a": "Trojan Horse"
+      },
+      {
+        "b": "Polymorphic virus"
+      },
+      {
+        "c": "Sâu"
+      },
+      {
+        "d": "Armored virus"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các user nội bộ báo cáo hệ thống của họ bị lây nhiễm nhiều lần. Trong mọi trường hợp virus có vẻ là cùng một loại. Thủ phạm thích hợp nhất là gì?",
+    "answers": [
+      {
+        "a": "Máy chủ có thể là vật mang virus"
+      },
+      {
+        "b": "Ta có một sâu virus"
+      },
+      {
+        "c": "Phần mềm antivirus của ta bị sự cố"
+      },
+      {
+        "d": "Tấn công DoS đang thực hiện"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Các log file trên hệ thống của bạn phát hiện một nổ lực giành quyền truy cập đến một tài khoản đơn. Nổ lực này đã không thành công vào thời điểm đó. Theo kinh nghiệm của bạn thì loại tấn công thích hợp nhất là gì?",
+    "answers": [
+      {
+        "a": "Tấn công đoán mật khẩu (Password Guessing)"
+      },
+      {
+        "b": "Tấn công cửa sau"
+      },
+      {
+        "c": "Tấn công bằng sâu"
+      },
+      {
+        "d": "TCP/IP hijacking"
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "question": "Một user báo cáo là anh ta đang nhận một lỗi chỉ ra rằng địa chỉ TCP/IP của anh ta đã bị sử dụng khi anh ta bật máy tính. Tấn công nào có thể đang thực hiện?",
+    "answers": [
+      {
+        "a": "Tấn công dạng \"Man in the middle\""
+      },
+      {
+        "b": "Tấn công cửa sau"
+      },
+      {
+        "c": "Sâu"
+      },
+      {
+        "d": "TCP/IP hijacking"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Thiết bị nào lưu trữ thông tin về đích đến trong mạng?",
+    "answers": [
+      {
+        "a": "Hub"
+      },
+      {
+        "b": "Modem"
+      },
+      {
+        "c": "Firewall"
+      },
+      {
+        "d": "Router"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Bộ lọc gói thực hiện chức năng nào?",
+    "answers": [
+      {
+        "a": "Cho phép tất cả các gói đi vào mạng"
+      },
+      {
+        "b": "Cho phép tất cả các gói rời mạng"
+      },
+      {
+        "c": "Ngăn chặn các gói trái phép đi vào từ mạng bên ngoài"
+      },
+      {
+        "d": "Loại trừ sự xung đột trong mạng"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Giao thức nào được sử dụng rộng rãi hiện nay như là một giao thức truyền tải đối với các kết nối quay số trên Internet?",
+    "answers": [
+      {
+        "a": "SLIP"
+      },
+      {
+        "b": "PPP"
+      },
+      {
+        "c": "PPTP"
+      },
+      {
+        "d": "L2TP"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Giao thức nào sau đây tuy không phải là một giao thức đường hầm nhưng nó sử dụng các giao thức đường hầm để bảo mật trên mạng?",
+    "answers": [
+      {
+        "a": "IPSec"
+      },
+      {
+        "b": "L2F"
+      },
+      {
+        "c": "PPTP"
+      },
+      {
+        "d": "L2TP"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Một socket là sự kết hợp của các thành phần nào?",
+    "answers": [
+      {
+        "a": "IP và session number"
+      },
+      {
+        "b": "IP và port number"
+      },
+      {
+        "c": "UDP và port number"
+      },
+      {
+        "d": "TCP và port number"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Thiết bị nào giám sát lưu lượng mạng theo cách thụ động?",
+    "answers": [
+      {
+        "a": "IDS"
+      },
+      {
+        "b": "Firewall"
+      },
+      {
+        "c": "Sniffer"
+      },
+      {
+        "d": "Web browser"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Hệ mật DES sử dụng khối khoá được tạo bởi",
+    "answers": [
+      {
+        "a": "56 bit ngẫu nhiên"
+      },
+      {
+        "b": "64 bit ngẫu nhiên"
+      },
+      {
+        "c": "128 bit ngẫu nhiên"
+      },
+      {
+        "d": "56 bit ngẫu nhiên và 8 bit \"Parity\""
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "Thuật giải SHA là",
+    "answers": [
+      {
+        "a": "Hàm băm một chiều"
+      },
+      {
+        "b": "Dùng trong thuật giải tạo chữ ký số"
+      },
+      {
+        "c": "Cho giá trị băm 160 bit"
+      },
+      {
+        "d": "Tất cả đều đúng"
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "question": "DSA là thuật toán",
+    "answers": [
+      {
+        "a": "Lấy dấu tay \"PrintingFinger\""
+      },
+      {
+        "b": "Tạo chữ ký số"
+      },
+      {
+        "c": "Phân phối khoá trước"
+      },
+      {
+        "d": "Bảo mật thông điệp"
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "question": "Trong các cặp khoá sau đây của hệ mật RSA với p=5 ; q=7, cặp khóa nào là đúng?",
+    "answers": [
+      {
+        "a": "(e = 12 , d =11)"
+      },
+      {
+        "b": "(e = 4 , d =11)"
+      },
+      {
+        "c": "( e = 7 , d =23)"
+      },
+      {
+        "d": "( e = 3 , d =18)"
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "question": "Thuật giải Difie Hellman dùng để",
+    "answers": [
+      {
+        "a": "Bảo mật thông điệp"
+      },
+      {
+        "b": "Xác thực thông điệp"
+      },
+      {
+        "c": "Phân phối khoá trước (hệ mật đối xứng)"
+      },
+      {
+        "d": "Lấy chữ ký số"
+      }
+    ],
+    "correct": "c"
+  }
+]
