@@ -276,6 +276,7 @@
             "questions_8.json",
             "questions_9.json",
             "questions_10.json",
+            "luat_va_daoduc.json",
         ];
 
         function showStatus(message, type = 'info') {
@@ -284,7 +285,7 @@
         }
 
         function updateNextButtonVisibility() {
-            if (answerSelected && flashcardsData.length > 0) {
+            if (flashcardsData.length > 0) {
                 nextCardButton.classList.add('visible');
             } else {
                 nextCardButton.classList.remove('visible');
@@ -360,7 +361,7 @@
         }
 
         function handleNextCardClick() {
-            if (flashcardsData.length === 0 || !answerSelected) return;
+            if (flashcardsData.length === 0) return;
             advanceToNextCard();
         }
 

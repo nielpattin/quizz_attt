@@ -1,0 +1,542 @@
+[
+    {
+        "question": "Luật được định nghĩa là gì?",
+        "answers": [
+            {
+                "a": "Gồm những điều khoản bắt buộc hoặc cấm những hành vi cụ thể"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Đạo đức được định nghĩa là gì?",
+        "answers": [
+            {
+                "a": "Định nghĩa những hành vi xã hội chấp nhận được"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Các điều luật thường được xây dựng từ đâu?",
+        "answers": [
+            {
+                "a": "Từ các vấn đề đạo đức"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Sự khác biệt chính giữa luật và đạo đức liên quan đến việc thực thi là gì?",
+        "answers": [
+            {
+                "a": "Luật được thực thi bởi các cơ quan chính quyền, đạo đức không được thực thi bởi các cơ quan chính quyền"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Trách nhiệm của một tổ chức (Organization Liability) bao gồm điều gì?",
+        "answers": [
+            {
+                "a": "Trách nhiệm trước pháp luật của tổ chức đó được mở rộng ngoài phạm vi luật hình sự và luật hợp đồng"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Nếu một nhân viên của công ty thực hiện hành vi vi phạm pháp hoặc phi đạo đức gây thiệt hại, công ty đó phải chịu trách nhiệm gì?",
+        "answers": [
+            {
+                "a": "Phải chịu trách nhiệm về pháp lý, tài chính"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Trong một tổ chức, nhân viên ATTT có trách nhiệm gì liên quan đến chính sách ATTT?",
+        "answers": [
+            {
+                "a": "Duy trì an toàn thông tin qua việc thiết lập và các chính sách ATTT"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Chính sách (còn gọi là quy định, nội quy) trong tổ chức là gì?",
+        "answers": [
+            {
+                "a": "Các quy định về các hành vi chấp nhận được của các nhân viên trong tổ chức tại nơi làm việc"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Yêu cầu 'Phổ biến (Dissemination)' của chính sách có nghĩa là gì?",
+        "answers": [
+            {
+                "a": "Có khả năng phổ biến rộng rãi, bằng tài liệu giấy hoặc điện tử"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Yêu cầu 'Tuân thủ (Obligation)' của chính sách đòi hỏi điều gì?",
+        "answers": [
+            {
+                "a": "Cần có biện pháp để nhân viên cam kết thực hiện – thông qua ký văn bản cam kết hoặc tick vào ô xác nhận tuân thủ"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Luật dân sự (Civil Law) điều chỉnh các mối quan hệ nào?",
+        "answers": [
+            {
+                "a": "Các quan hệ dân sự giữa các tổ chức và cá nhân trong một quốc gia"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Luật hình sự (Criminal Law) điều chỉnh những hành vi nào?",
+        "answers": [
+            {
+                "a": "Các hành vi gây hại cho xã hội và nhà nước chủ động thực thi"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Computer Fraud and Abuse Act of 1986 (CFA Act) của Mỹ quy định về vấn đề gì?",
+        "answers": [
+            {
+                "a": "Các tội phạm lừa đảo và lạm dụng máy tính"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "USA PATRIOT Act, 2001 cho phép các cơ quan chính quyền Mỹ thực hiện điều gì?",
+        "answers": [
+            {
+                "a": "Một số quyền nhằm phòng chống khủng bố hiệu quả hơn"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Health Insurance Portability and Accountability Act, 1996 (HIPAA) nhằm mục đích gì?",
+        "answers": [
+            {
+                "a": "Bảo vệ tính bí mật và an toàn của các dữ liệu y tế của người bệnh"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Federal Privacy Act, 1974 của Mỹ nhằm bảo vệ điều gì?",
+        "answers": [
+            {
+                "a": "Quyền riêng tư của người dùng"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Economic Espionage Act, 1996 của Mỹ nhằm mục đích gì?",
+        "answers": [
+            {
+                "a": "Phòng chống việc thực hiện giao dịch có liên quan đến bí mật kinh tế và công nghệ"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "U.S. Copyright Law điều chỉnh các vấn đề nào?",
+        "answers": [
+            {
+                "a": "Các vấn đề có liên quan đến xuất bản, quyền tác giả của các tài liệu, phần mềm, bao gồm cả các tài liệu số"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Luật tự do thông tin (Freedom of Information Act, 1966 - FOIA) của Mỹ cho phép điều gì?",
+        "answers": [
+            {
+                "a": "Các cá nhân được truy cập các thông tin không gây tổn hại đến an ninh quốc gia"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Hiệp ước về chống tội phạm mạng của Hội đồng châu Âu (Council of Europe Convention on Cybercrime) được phê chuẩn vào năm nào?",
+        "answers": [
+            {
+                "a": "Năm 2001"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Digital Millennium Copyright Act (DMCA) là luật về vấn đề gì?",
+        "answers": [
+            {
+                "a": "Luật bản quyền số Thiên niên kỷ"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Luật ATTT mạng của Việt Nam (86/2015/QH13) được Quốc hội thông qua và có hiệu lực khi nào?",
+        "answers": [
+            {
+                "a": "Thông qua tháng 11/2015 và có hiệu lực từ 1/7/2016"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Chương II của Luật ATTT mạng Việt Nam (86/2015/QH13) quy định về nội dung gì?",
+        "answers": [
+            {
+                "a": "BẢO ĐẢM AN TOÀN THÔNG TIN MẠNG"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Luật An ninh mạng của Việt Nam được Quốc hội thông qua vào tháng 6 năm 2018 có hiệu lực từ ngày nào?",
+        "answers": [
+            {
+                "a": "1/1/2019"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Nhiều tổ chức xã hội nghề nghiệp đã ban hành loại quy định nào bắt buộc tại nơi làm việc?",
+        "answers": [
+            {
+                "a": "Các quy tắc ứng xử (Code of Conduct)"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Trong lĩnh vực CNTT và ATTT, các quy tắc ứng xử thường có tính chất gì?",
+        "answers": [
+            {
+                "a": "Chỉ có tính khuyến nghị, các tổ chức ban hành không có thẩm quyền buộc phải thực hiện"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Theo 'Bộ Quy tắc ứng xử 10 điểm (Ten Commandments of Computer Ethics)', một trong các điều răn là gì?",
+        "answers": [
+            {
+                "a": "Không được sử dụng máy tính để gây hại cho người khác"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Theo thông tin được cung cấp, tỷ lệ vi phạm bản quyền phần mềm ở Việt Nam là khoảng bao nhiêu?",
+        "answers": [
+            {
+                "a": "Khoảng 90%"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Hành vi nào sau đây được coi là lạm dụng tài nguyên của công ty/tổ chức?",
+        "answers": [
+            {
+                "a": "In ấn tài liệu riêng"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Điểm khác biệt nào sau đây là đúng khi so sánh luật và chính sách trong tổ chức?",
+        "answers": [
+            {
+                "a": "Luật luôn bắt buộc, chính sách có thể được bào chữa nếu thiếu hiểu biết (trong một số trường hợp)"
+            },
+            {
+                "b": "..."
+            },
+            {
+                "c": "..."
+            },
+            {
+                "d": "..."
+            }
+        ],
+        "correct": "a"
+    }
+]
