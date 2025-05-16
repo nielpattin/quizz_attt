@@ -198,7 +198,7 @@
         "d": "USB"
       }
     ],
-    "correct": "f"
+    "correct": "b"
   },
   {
     "question": "Kích thước của bản mã trong hệ mã hóa Elgamal so với bản rõ là",
@@ -342,7 +342,7 @@
         "d": "4"
       }
     ],
-    "correct": "c"
+    "correct": "b"
   },
   {
     "question": "Nên cài mức truy cập mặc định cơ sở dữ liệu là mức nào sau đây?",
@@ -396,7 +396,7 @@
         "d": "Disable tài khoản không dùng đến"
       }
     ],
-    "correct": "d"
+    "correct": "c"
   },
   {
     "question": "Chiều dài tối thiểu của mật khẩu cần phải là",
